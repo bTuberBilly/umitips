@@ -7,6 +7,7 @@ Happy Umineko Day, 2026-10-04!
 - [UmiTips](#umitips)
 	- [Table of Contents](#table-of-contents)
 	- [About this Project](#about-this-project)
+	- [Credits](#credits)
 	- [Installation](#installation)
 	- [Screenshots](#screenshots)
 
@@ -18,6 +19,18 @@ There are two main goals for this project:
 
 1) Create new VN adaptations for the two Umineko tips that never received them
 2) Port the console exclusive tips from Umineko Saku Sw/PS4 to ONSEN
+
+## Credits
+
+* lee_bella
+  * Translation: "On Anti-Mystery and Anti-Fantasy"
+* Tarable Translations
+  * Translation: "The Last and First Gift"
+  * Translation: "Hotarubi no Tomoru Koro ni"
+* Billy
+  * Scripting
+  * Graphics
+  * Editing
 
 ## Installation
 
