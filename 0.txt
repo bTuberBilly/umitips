@@ -166,7 +166,6 @@ bgm "bgm/far.ogg"
 
 `  When one talks about "mystery novels", one usually means "traditional mystery novels".@ To put it simply, the traditional mystery novel is a type of novel where the reader is able to use the information given in the story to solve the case before the solution is given out.\
 
-;`  This is the main trope of mystery stories.@ It's perhaps appropriate to grant it the title of "traditional".@ 
 `  It is then perhaps appropriate to grant mystery novels that carry this hallmark with the classification of "traditional".@ Traditional mysteries are a battle of wit between the author and the reader during the reading process.@ From this perspective, traditional mystery is the most entertaining of the fiction subgenres.@ By "entertaining", I mean that high quality traditional mysteries are similar to solving game-like riddles or mathematical problems; they are the purified, enlightened condensation of many great works by famous mystery authors.\
 
 `  Nonetheless, purely traditional mysteries will eventually run into certain obstacles, namely, a famous problem called the "later Queen problem".@ To put it simply, this "later Queen problem" concerns the inability to determine whether the information that the detective (the reader) can obtain in the story is complete or not.@ Good detectives normally use evidence and clues they've found to come up with a solid deduction and a plausible conclusion, but an important piece of criteria must be satisfied before the solution can be regarded as completely accurate.\
@@ -339,7 +338,7 @@ bg "bmp/efe/fure1.png",10
 
 bgm "bgm/Haruka.ogg"
 
-` And it felt like just yesterday that I갽d been playing around with Bern, too.@ I wonder when this much time passed.@ Oh well, whatever.@ I갽m super thick paper.@ Rather than dwelling on memories of the past, I certainly, certainly have more fun tearing the wrapping off the chocolate called the future."\
+` And it felt like just yesterday that I혖fd been playing around with Bern, too.@ I wonder when this much time passed.@ Oh well, whatever.@ I혖fm super thick paper.@ Rather than dwelling on memories of the past, I certainly, certainly have more fun tearing the wrapping off the chocolate called the future."\
 `  Lambdadelta welcomed a rare guest.\
 
 bg "bmp/efe/cateye_1.png",10
@@ -349,9 +348,9 @@ bg "bmp/efe/cateye_1.png",10
 bg "bmp/efe/letter1.bmp",10
 
 ` It had come a long way, carrying a beautiful envelope in its mouth.\
-`  "Uh huh, you갽ve got it.@ That letter of yours is addressed to me; I갽m none other than the Witch of Certainty, Lambda-chan-sama.@ Thanks for coming all this way, little kitty.@ Which would you like as your reward: chocolate senbei or chocolate arare?@ Oh, you don갽t want anything?@ Hmm, that so."\
-`  Cats can갽t eat chocolate.@ The black cat hung its head apologetically.\
-`  "Still, I never thought I갽d see the day when that girl sent me a letter.@ I wonder what갽s gotten into her.@ Maybe she was on the very verge of death by boredom, and writing a letter was the only idea she could come up with?@ ...No, that would never happen with her.@ I get it now.@ She wants to bully me in a new game of hers, doesn갽t she?"\
+`  "Uh huh, you혖fve got it.@ That letter of yours is addressed to me; I혖fm none other than the Witch of Certainty, Lambda-chan-sama.@ Thanks for coming all this way, little kitty.@ Which would you like as your reward: chocolate senbei or chocolate arare?@ Oh, you don혖ft want anything?@ Hmm, that so."\
+`  Cats can혖ft eat chocolate.@ The black cat hung its head apologetically.\
+`  "Still, I never thought I혖fd see the day when that girl sent me a letter.@ I wonder what혖fs gotten into her.@ Maybe she was on the very verge of death by boredom, and writing a letter was the only idea she could come up with?@ ...No, that would never happen with her.@ I get it now.@ She wants to bully me in a new game of hers, doesn혖ft she?"\
 `  With a nasty smile on her face, Lambdadelta tapped the black cat on the nose.@ Of course, there was no way that the cat who delivered the letter could know what its contents were.\
 `  When Lambdadelta opened the envelope,/
 
@@ -359,16 +358,16 @@ bg "bmp/efe/fure1.png",10
 lsp 16,":a;bmp/manga/kakera2.png"
 
 ` a sparkling Fragment came rolling out in addition to the letter itself.\
-`  "My, my.@ Now here갽s something interesting."\
+`  "My, my.@ Now here혖fs something interesting."\
 `  Indeed, this was a Fragment; the crystallization of a single world, extracted from among the myriad of multicolored universes in existence.@ Heheh, I wonder what kind of world this Fragment contains.@ It has a pretty unique radiance to it.\
 `  "Not a bad idea, coming from her.@ Now then, let me take a look at this letter..."\
 
 csp -1
 bg "bmp/efe/letter1.bmp",10
 
-`  "Look who갽s talking.@ ...I see now.@ You got lonely because I stopped paying attention to you for awhile, didn갽t you?@ Heheheh, Bern is so cute."\
-`  "Aa~h!!@ I can갽t believe you missed me this much!@ Heheheh, I love you, too, Bern괃 Alrighty, what갽s next?@ How am I supposed to play around with this Fragment?"\
-`  "Hmm...@ In other words, whether you have to drink mud, or whether you have every limb ripped from your body and end up crawling the ground like a worm, you just have to make it out alive in the end?@ Those kinds of games are my specialty, you know.@ It갽s not like you don갽t already know that.@ ...If she갽s throwing down the gauntlet in spite of that, I guess this really is a written challenge, after all.@ Oh, she is just the cutest thing."\
+`  "Look who혖fs talking.@ ...I see now.@ You got lonely because I stopped paying attention to you for awhile, didn혖ft you?@ Heheheh, Bern is so cute."\
+`  "Aa~h!!@ I can혖ft believe you missed me this much!@ Heheheh, I love you, too, Bern혖척 Alrighty, what혖fs next?@ How am I supposed to play around with this Fragment?"\
+`  "Hmm...@ In other words, whether you have to drink mud, or whether you have every limb ripped from your body and end up crawling the ground like a worm, you just have to make it out alive in the end?@ Those kinds of games are my specialty, you know.@ It혖fs not like you don혖ft already know that.@ ...If she혖fs throwing down the gauntlet in spite of that, I guess this really is a written challenge, after all.@ Oh, she is just the cutest thing."\
 `  The letter ended there.\
 
 bg "bmp/efe/fure1.png",10
@@ -388,15 +387,15 @@ bg "bmp/manga/hirasaka1.png",10
 `  "Which one would be best?@ ...Hmm..."\
 `  To participate in a game within a Fragment, you first must send in a piece.@ In other words, this was much like the character select screen of a video game.\
 `  After folding her arms and giving it some deep thought, she eventually settled on a black piece.\
-`  She wasn갽t sure of the situation, but if the point of the game was to survive, she figured her best option would be a sturdy, clever all-rounder with a strong desire to live.\
-`  "...In which case, it갽s gotta be this piece.@ Let갽s go, my other self."\
+`  She wasn혖ft sure of the situation, but if the point of the game was to survive, she figured her best option would be a sturdy, clever all-rounder with a strong desire to live.\
+`  "...In which case, it혖fs gotta be this piece.@ Let혖fs go, my other self."\
 `  She plucked the piece out of midair, then tossed it into the galaxy.\
 `  As soon as she did,/
 
 bg "bmp/efe/fure2.png",10
 
 ` an infinite number of dazzling lights scattered about, and within a moment, the world was completely buried in a sea of stars.\
-`  Within those bright lights, Lambdadelta갽s consciousness was sucked away...\
+`  Within those bright lights, Lambdadelta혖fs consciousness was sucked away...\
 
 bg "bmp/efe/black.png",10
 
@@ -415,8 +414,8 @@ bgm "me/A3_01005.WAV"
 `  I stopped my motorcycle there.@ I was anxious to enjoy the scenery down to the very soles of my feet.\
 `  The hue of the mountains was interwoven with the thick green of the trees.@ Come sunset, it was sure to cycle through various other shades and colors, creating a feast for the eyes.@ Although the sun was beating down strongly, there was something cool and refreshing about the air.\
 `  Nice scenery, and nice air.\
-`  Oh, whoops, that갽s right.@ You갽re not supposed to say that sort of thing aloud.@ It갽s rude to the people who live in the country.\
-`  ...Or wait, maybe it is alright.@ After all, if I can갽t say that, I갽m not allowed to enter.\
+`  Oh, whoops, that혖fs right.@ You혖fre not supposed to say that sort of thing aloud.@ It혖fs rude to the people who live in the country.\
+`  ...Or wait, maybe it is alright.@ After all, if I can혖ft say that, I혖fm not allowed to enter.\
 `  And so, I dared to put it into words.\
 `  "Nice scenery.@ Nice air.@ ...Hehehe."\
 `  I put down my backpack for a moment and took out my prized research notebook./
@@ -425,26 +424,26 @@ bg "bmp/efe/nort2.png",10
 bgmstop
 bgm "bgm/apathy.ogg"
 
-`@ I갽d been researching this village for a long time, but this would be the first time I갽d actually set foot inside it.\
-`  I갽d been studying the village, but I never went to visit it?@ If you think about it normally, it doesn갽t make much sense.@ It갽s the same sort of foolishness as trying to envision what a cake tastes like just from reading the recipe.\
-`  Still.@ ...If you simply eat a cake, you can learn what it tastes like.@ You can make a record of it, too.@ But what if it weren갽t a cake, but some strange, sludgy mystery item?@ There would be no telling if it was even edible, let alone what it tastes like.@ No, worse than that, it갽d practically be emitting a skull-shaped cloud of smoke.\
-`  If it were some unidentifiable item...@ you갽d save eating it for the very last step, wouldn갽t you?\
+`@ I혖fd been researching this village for a long time, but this would be the first time I혖fd actually set foot inside it.\
+`  I혖fd been studying the village, but I never went to visit it?@ If you think about it normally, it doesn혖ft make much sense.@ It혖fs the same sort of foolishness as trying to envision what a cake tastes like just from reading the recipe.\
+`  Still.@ ...If you simply eat a cake, you can learn what it tastes like.@ You can make a record of it, too.@ But what if it weren혖ft a cake, but some strange, sludgy mystery item?@ There would be no telling if it was even edible, let alone what it tastes like.@ No, worse than that, it혖fd practically be emitting a skull-shaped cloud of smoke.\
+`  If it were some unidentifiable item...@ you혖fd save eating it for the very last step, wouldn혖ft you?\
 `  That was the reason.\
 `  That was why only now, for the very first time, I had finally come to this village.\
 `  After performing sufficient research and preparations...@ I would finally get a taste of this mystery item...\
-`  Oh, right, it갽s about time I introduce "myself."\
-`  My name is Miyoko Takano.@ I갽m a carefree, freewheeling occult researcher and traveler.@ A lovely bachelorette who enjoys researching any and all legends that have a whiff of the occult, originating from the many different regions of Japan.\
-`  I갽m of the age where, typically, I갽d be expected to be a working woman.@ However, it seems I was born lucky.\
-`  My grandfather left behind a tremendous fortune when he passed away.@ He specifically named me in his will, and entrusted me with a large enough sum of money to buy a mansion anywhere in Japan.@ Thanks to that, my life is different from the average person.@ I don갽t have to earn my own living expenses, whittling away my life doing things I don갽t want to just for the sake of staying alive.@ I can devote the entirety of my existence to my life갽s work.\
-`  See?@ If that갽s not being born lucky, then what is?@ Hehehe.\
-`  Though...@ It갽s likely I wasn갽t really born with that luck.\
-`  "I갽ve had it since I collected these."\
+`  Oh, right, it혖fs about time I introduce "myself."\
+`  My name is Miyoko Takano.@ I혖fm a carefree, freewheeling occult researcher and traveler.@ A lovely bachelorette who enjoys researching any and all legends that have a whiff of the occult, originating from the many different regions of Japan.\
+`  I혖fm of the age where, typically, I혖fd be expected to be a working woman.@ However, it seems I was born lucky.\
+`  My grandfather left behind a tremendous fortune when he passed away.@ He specifically named me in his will, and entrusted me with a large enough sum of money to buy a mansion anywhere in Japan.@ Thanks to that, my life is different from the average person.@ I don혖ft have to earn my own living expenses, whittling away my life doing things I don혖ft want to just for the sake of staying alive.@ I can devote the entirety of my existence to my life혖fs work.\
+`  See?@ If that혖fs not being born lucky, then what is?@ Hehehe.\
+`  Though...@ It혖fs likely I wasn혖ft really born with that luck.\
+`  "I혖fve had it since I collected these."\
 `  I took something wrapped in a handkerchief out of my breast pocket and cradled it against my chest.@ I gently opened up the handkerchief,/
 
 bg "bmp/new/flags1.png",10
 
-` showing a glimpse of several miniature country flags.@ ...They were the twenty flags I had collected from kid갽s meals as a child.@ My own special lucky charm, and the only one of its kind.\
-`  That갽s why everything will certainly turn out okay in the end.@ I will certainly, certainly reach my goal.\
+` showing a glimpse of several miniature country flags.@ ...They were the twenty flags I had collected from kid혖fs meals as a child.@ My own special lucky charm, and the only one of its kind.\
+`  That혖fs why everything will certainly turn out okay in the end.@ I will certainly, certainly reach my goal.\
 
 bg "bmp/efe/black.png",10
 bgmstop
@@ -454,55 +453,55 @@ bgmstop
 bgm "bgm/lsys11.ogg"
 bg "bmp/new/jizo0.png",10
 
-`  To that side, you can see the village갽s entrance, marked by the six Jizos.@ The "rules" of this village come into effect starting there.\
+`  To that side, you can see the village혖fs entrance, marked by the six Jizos.@ The "rules" of this village come into effect starting there.\
 `  The first one involves this hand-washing basin.\
-`  Yes.@ As you can see, it갽s just like the temizuya you갽ll often see around shrines.@ Naturally, the etiquette is quite similar, as well.@ You scoop up water with the ladle and cleanse the impurities from your hands.\
-`  In olden times, this area was a revered as a holy ground; a snowy mountain where ascetics would come seclude themselves.@ The guardians of said holy ground eventually decided to build a village here, and that갽s how this place came to be.@ According to legend, all the current villagers are the descendants of those guardians.@ The older villagers take that responsibility seriously, and to ensure that they don갽t carry any impurities onto these grounds--or perhaps to ensure they themselves are not impure--they live by strict rules.\
-`  But even that strict lifestyle of theirs, said to have continued for hundreds of years, couldn갽t remain untouched by the radical changes that came with the Showa period.@ The younger villagers, who learned about life in the outside world through television or school, found the strict precepts to be a mere nuisance.@ Even without the rules, there was nothing to keep youngsters tied down to a village way out in the sticks, so far in the middle of nowhere.\
-`  With no way to prevent the younger generation갽s exodus, the village suffered heavy depopulation after World War II.@ By the end of it, the elderly villagers were the only ones left.@ And even their numbers continue to slowly dwindle as they die off from old age.\
+`  Yes.@ As you can see, it혖fs just like the temizuya you혖fll often see around shrines.@ Naturally, the etiquette is quite similar, as well.@ You scoop up water with the ladle and cleanse the impurities from your hands.\
+`  In olden times, this area was a revered as a holy ground; a snowy mountain where ascetics would come seclude themselves.@ The guardians of said holy ground eventually decided to build a village here, and that혖fs how this place came to be.@ According to legend, all the current villagers are the descendants of those guardians.@ The older villagers take that responsibility seriously, and to ensure that they don혖ft carry any impurities onto these grounds--or perhaps to ensure they themselves are not impure--they live by strict rules.\
+`  But even that strict lifestyle of theirs, said to have continued for hundreds of years, couldn혖ft remain untouched by the radical changes that came with the Showa period.@ The younger villagers, who learned about life in the outside world through television or school, found the strict precepts to be a mere nuisance.@ Even without the rules, there was nothing to keep youngsters tied down to a village way out in the sticks, so far in the middle of nowhere.\
+`  With no way to prevent the younger generation혖fs exodus, the village suffered heavy depopulation after World War II.@ By the end of it, the elderly villagers were the only ones left.@ And even their numbers continue to slowly dwindle as they die off from old age.\
 `  The population keeps decreasing, with no hopes of drawing in new blood.\
-`  Of course, with the way country life has been romanticized in recent years, there must be a fair share of whimsical people looking to move out to a backwater village like this.@ However...@ this is a village that belongs to the descendants of the guardians of a holy land.@ It갽s absolutely no place for a weak-willed urbanite that came along after tiring of city life, looking to take it easy and do some farming.@ It would be too difficult for an outsider to uphold every single one of the village갽s rules.\
-`  Fortunately, the rules themselves aren갽t all that unusual, and they aren갽t especially difficult to understand.\
+`  Of course, with the way country life has been romanticized in recent years, there must be a fair share of whimsical people looking to move out to a backwater village like this.@ However...@ this is a village that belongs to the descendants of the guardians of a holy land.@ It혖fs absolutely no place for a weak-willed urbanite that came along after tiring of city life, looking to take it easy and do some farming.@ It would be too difficult for an outsider to uphold every single one of the village혖fs rules.\
+`  Fortunately, the rules themselves aren혖ft all that unusual, and they aren혖ft especially difficult to understand.\
 `  What is difficult to understand is the intolerant attitude of the villagers, who will ostracize anyone who fails to obey the rules down to the letter.\
 `  The very first of those rules has to do with this hand-washing basin.@ So as to avoid bringing impurities into the village, everyone must cleanse their hands here upon entry.\
-`  That by itself isn갽t so hard to understand.\
+`  That by itself isn혖ft so hard to understand.\
 `  The problem is how strictly the village enforces it, no matter what the situation.\
-`  As you can see, this is right in the middle of the road that leads into the village.@ Any rational person could see how inconvenient it would be to park your car here and get out just to wash your hands.@ It would be even worse during times when it갽s snowing or raining, or when you갽re exhausted and just want to get home.\
-`  And yet, the villagers won갽t let you skip out on that troublesome task even once.\
-`  Whenever someone new moves into the village, the elders will watch over them to make sure they don갽t break any rules.\
-`  And if they do something wrong?@ They갽re ostracized.@ Or, no, perhaps it would be more accurate to say that they go under a full assault.@ They bombard the poor newcomer with all sorts of harassment, until they finally succeed in driving them out of the village.\
-`  People vital to the village, like doctors, are no exception.@ There are no doctors residing in the village, but every now and then, a brave one will come make a visit.@ Of course, the villagers always welcome them with open arms, and they갽ll helpfully go over the rules with them beforehand.\
-`  ...But the moment they break even one of those rules, the villager갽s attitudes will do a complete 180, and they갽ll commence their full-frontal attack.@ That갽s why not a single doctor has ever settled down in the village.\
+`  As you can see, this is right in the middle of the road that leads into the village.@ Any rational person could see how inconvenient it would be to park your car here and get out just to wash your hands.@ It would be even worse during times when it혖fs snowing or raining, or when you혖fre exhausted and just want to get home.\
+`  And yet, the villagers won혖ft let you skip out on that troublesome task even once.\
+`  Whenever someone new moves into the village, the elders will watch over them to make sure they don혖ft break any rules.\
+`  And if they do something wrong?@ They혖fre ostracized.@ Or, no, perhaps it would be more accurate to say that they go under a full assault.@ They bombard the poor newcomer with all sorts of harassment, until they finally succeed in driving them out of the village.\
+`  People vital to the village, like doctors, are no exception.@ There are no doctors residing in the village, but every now and then, a brave one will come make a visit.@ Of course, the villagers always welcome them with open arms, and they혖fll helpfully go over the rules with them beforehand.\
+`  ...But the moment they break even one of those rules, the villager혖fs attitudes will do a complete 180, and they혖fll commence their full-frontal attack.@ That혖fs why not a single doctor has ever settled down in the village.\
 `  Unsurprisingly, this vicious treatment seems to soften a bit when directed towards family and friends.@ It seems the former children of the village were able to get off with no more than a severe scolding.@ Of course, although it may have been "softer" in comparison, it was still much harsher than your typical spanking.@ There are some elders in the village who still have scars left over from when they were disciplined.\
-`  In other words, there갽s no getting out of the punishment, but they at least won갽t exile their own from the village.\
-`  Unlike outsiders, the villagers are all, in theory, the descendants of those guardians of the sacred ground.@ They must believe that they갽re all fundamentally capable of reform.\
-`  After hearing all that, it갽s easy to imagine this as a horrifying village, ruled by fear and precepts, but the villagers who live there now don갽t see it that way.@ To them, the rules are as natural as breathing, and the way things should be.@ As such, they don갽t consider it suffocating in the least, instead simply following along with the rules as part of everyday life.\
-`  You could say it갽s similar to how you must always take off your shoes at the entrance to someone갽s home.@ If you갽re Japanese, that갽s just the norm.@ You won갽t find a single Japanese person who finds that "rule" to be oppressive.@ There aren갽t any Japanese people who feel reluctant to say "itadakimasu" before a meal, nor are there any who will refuse to say "thank you" after someone does them a favor.@ Those rules of theirs, which seem horribly unreasonable by our standards, are just an extremely typical part of daily life to the village elders.\
+`  In other words, there혖fs no getting out of the punishment, but they at least won혖ft exile their own from the village.\
+`  Unlike outsiders, the villagers are all, in theory, the descendants of those guardians of the sacred ground.@ They must believe that they혖fre all fundamentally capable of reform.\
+`  After hearing all that, it혖fs easy to imagine this as a horrifying village, ruled by fear and precepts, but the villagers who live there now don혖ft see it that way.@ To them, the rules are as natural as breathing, and the way things should be.@ As such, they don혖ft consider it suffocating in the least, instead simply following along with the rules as part of everyday life.\
+`  You could say it혖fs similar to how you must always take off your shoes at the entrance to someone혖fs home.@ If you혖fre Japanese, that혖fs just the norm.@ You won혖ft find a single Japanese person who finds that "rule" to be oppressive.@ There aren혖ft any Japanese people who feel reluctant to say "itadakimasu" before a meal, nor are there any who will refuse to say "thank you" after someone does them a favor.@ Those rules of theirs, which seem horribly unreasonable by our standards, are just an extremely typical part of daily life to the village elders.\
 `  So in the eyes of the people who live here, stopping your car at the entrance and washing your hands upon returning to the village is the norm, and something that absolutely must be done.\
-`  The villagers themselves are a given, but other people who drop by the village, like mailmen or government officials, aren갽t allowed to skip out on it, either.\
-`  That갽s just how the rules are.@ Anyone who questions that wouldn갽t be able to get by here.\
-`  Fortunately enough, most of the rules don갽t become relevant unless you do start living here.@ If you don갽t enter a house, you don갽t have to worry about taking off your shoes; if you don갽t eat, there갽s no reason to say "itadakimasu"; if you don갽t let other people take care of things for you, you don갽t have to say "thank you"...@ It갽s like that.\
+`  The villagers themselves are a given, but other people who drop by the village, like mailmen or government officials, aren혖ft allowed to skip out on it, either.\
+`  That혖fs just how the rules are.@ Anyone who questions that wouldn혖ft be able to get by here.\
+`  Fortunately enough, most of the rules don혖ft become relevant unless you do start living here.@ If you don혖ft enter a house, you don혖ft have to worry about taking off your shoes; if you don혖ft eat, there혖fs no reason to say "itadakimasu"; if you don혖ft let other people take care of things for you, you don혖ft have to say "thank you"...@ It혖fs like that.\
 `  When it comes to a homeless traveler like me, there are hardly any rules that can apply outside of the one surrounding this hand-washing basin.@ In a sense, perhaps you could consider that the single show of mercy from a village hard on outsiders.\
-`  However, in my view, it갽s simply in the village갽s blind spot.\
-`  Whimsical travelers aren갽t expected to be wandering into this village in the first place.@ While the scenery and atmosphere here, deep in the mountains, may be more stunning than the average town, there are many far more breathtaking locations in Japan.\
-`  There are no scenic views or tourist spots here.@ Nobody visits this place except for the villagers; it갽s a dead end, with nothing but mountains behind it.\
-`  Knowing all that, the least a traveler like me can do is obey the simple rule of washing my hands and show this land the respect it deserves.@ That갽s what any normal traveler would do.\
+`  However, in my view, it혖fs simply in the village혖fs blind spot.\
+`  Whimsical travelers aren혖ft expected to be wandering into this village in the first place.@ While the scenery and atmosphere here, deep in the mountains, may be more stunning than the average town, there are many far more breathtaking locations in Japan.\
+`  There are no scenic views or tourist spots here.@ Nobody visits this place except for the villagers; it혖fs a dead end, with nothing but mountains behind it.\
+`  Knowing all that, the least a traveler like me can do is obey the simple rule of washing my hands and show this land the respect it deserves.@ That혖fs what any normal traveler would do.\
 `  I picked up the ladle and scooped up some water.\
-`  "I갽m awfully sorry."\
-`  ...I갽m not any normal traveler.\
-`  The ladle fell out of Takano갽s hands.\
-`  It didn갽t just fall on its own.@ She dropped it.\
+`  "I혖fm awfully sorry."\
+`  ...I혖fm not any normal traveler.\
+`  The ladle fell out of Takano혖fs hands.\
+`  It didn혖ft just fall on its own.@ She dropped it.\
 
 ; BILLYDEBUG SFX?
 
 `  The ladle hit the ground with a loud enough clatter to startle even the object itself, rolling across the earth.@ That sound rang out loud and clear.\
-`  ...It was loud enough that if anyone had been standing watch to make sure an outsider didn갽t break the rules, there was no way they could have missed it.\
+`  ...It was loud enough that if anyone had been standing watch to make sure an outsider didn혖ft break the rules, there was no way they could have missed it.\
 `  But Takano merely laughed.@ She gave a crisp laugh, just as if that display of rudeness had been the proper thing to do.@ She had intentionally thrown that ladle, meant to cleanse away filth and impurities, onto the ground...\
 `  "I do hope this will suffice as a greeting.@ ...Hehehe."\
 `  Takano straddled her motorcycle once more.\
-`  It was doubtful that she would be able to stay with any of the locals, but there were sure to be some empty houses inside the depopulated village.@ Takano had brought along all the equipment she would need for camping, so as long as she could find shelter from the evening dew, she wouldn갽t need anything else.\
-`  "...Well then.@ I wonder when they갽ll be coming.@ I can hardly wait."\
-`  Takano갽s bold smile was hidden underneath her full-face helmet.\
+`  It was doubtful that she would be able to stay with any of the locals, but there were sure to be some empty houses inside the depopulated village.@ Takano had brought along all the equipment she would need for camping, so as long as she could find shelter from the evening dew, she wouldn혖ft need anything else.\
+`  "...Well then.@ I wonder when they혖fll be coming.@ I can hardly wait."\
+`  Takano혖fs bold smile was hidden underneath her full-face helmet.\
 `  Her motorcycle took off, and she disappeared into the village...\
 
 bg "bmp/efe/black.png",10
@@ -517,24 +516,24 @@ bg "bmp/manga/hirasaka1.png",10
 bgm "bgm/lsys12.ogg"
 `\
 
-`  As far as why I moved here...@ well, I갽m not particularly keen on explaining it.@ Most people would just give me a dubious look if I told them the real reason.\
-`  Both my parents are predisposed to depression.@ They were always searching for some kind of crutch, hoping they would one day be shown the path to something they could believe in.@ As such, it갽s probably no surprise that they came to put fortune-tellers and psychics on some sort of pedestal.\
-`  Before long, they were putting all their stock in one particular fortune-teller.@ Often attending the seminar he hosted, they would take to heart all his fortunes about how their current job wasn갽t good for them or there were bad vibes surrounding their family life, and they started purchasing shady objects like spiritual urns in bulk.@ By the end of it all, they even believed in the prophecy that it was their true destiny to live out a simple life doing farming in the far-off country, free of all ties and obligations.\
-`  I don갽t know why the fortune-teller picked out this village in particular.@ I갽m willing to bet that he hung a map on his wall, threw a dart, and went with wherever it landed.@ Either way, I know for a fact that his prophecy is what convinced them to move here.\
+`  As far as why I moved here...@ well, I혖fm not particularly keen on explaining it.@ Most people would just give me a dubious look if I told them the real reason.\
+`  Both my parents are predisposed to depression.@ They were always searching for some kind of crutch, hoping they would one day be shown the path to something they could believe in.@ As such, it혖fs probably no surprise that they came to put fortune-tellers and psychics on some sort of pedestal.\
+`  Before long, they were putting all their stock in one particular fortune-teller.@ Often attending the seminar he hosted, they would take to heart all his fortunes about how their current job wasn혖ft good for them or there were bad vibes surrounding their family life, and they started purchasing shady objects like spiritual urns in bulk.@ By the end of it all, they even believed in the prophecy that it was their true destiny to live out a simple life doing farming in the far-off country, free of all ties and obligations.\
+`  I don혖ft know why the fortune-teller picked out this village in particular.@ I혖fm willing to bet that he hung a map on his wall, threw a dart, and went with wherever it landed.@ Either way, I know for a fact that his prophecy is what convinced them to move here.\
 `  Thanks to that, the five of us Nakamuras (me, my parents, and my two older brothers) moved out to this strange, empty village.\
-`  My brothers haven갽t been bothered by it in the least.\
+`  My brothers haven혖ft been bothered by it in the least.\
 `  My eldest brother is still stuck in a deep depression due to severe bullying he faced in middle school.@ For the record, it was when my parents were trying to figure out what to do about that that they first turned to fortune-telling.@ For that reason, my oldest brother has just as much blind faith in the prophecy as my parents do.\
-`  The younger of my two brothers was another victim of bullying.@ While he didn갽t fall into a depression, he came out of it a pretty bitter person, so he was more than happy to start living like a hermit out in the middle of nowhere.\
-`  So, of course, there wasn갽t a whole lot I could say as the odd person out.\
-`  ...Really, there갽s probably a part of me that gets easily depressed, just like the rest of my family.@ So I must have felt tired of living in the city, or bored of ordinary life...@ or I thought I갽d be able to get a fresh start in a remote village...@ so I left the decision up to everyone else, hoping it would lead to some sort of change in my life.\
+`  The younger of my two brothers was another victim of bullying.@ While he didn혖ft fall into a depression, he came out of it a pretty bitter person, so he was more than happy to start living like a hermit out in the middle of nowhere.\
+`  So, of course, there wasn혖ft a whole lot I could say as the odd person out.\
+`  ...Really, there혖fs probably a part of me that gets easily depressed, just like the rest of my family.@ So I must have felt tired of living in the city, or bored of ordinary life...@ or I thought I혖fd be able to get a fresh start in a remote village...@ so I left the decision up to everyone else, hoping it would lead to some sort of change in my life.\
 `  And so, our family packed up and moved out to this village.@ We moved to this strange, stifling village, steeped in restrictions and with a rule for everything.\
-`  The elders of the village are incredibly narrow-minded and unaccommodating.@ As such, you can갽t break any of the rules where one of the villagers might see.@ Whenever one of the rules is about to slip your mind, there갽s always someone watching, ready to chew you out at the top of their lungs.\
-`  They expect regular worship before the Jizo statue or the miniature shrine, help carrying out certain rituals, and all sorts of other things.@ I갽m not from around here, so it would be nice if they갽d explain things a little more patiently, but they don갽t seem to care.@ They just berate me as if I갽m the one lacking common sense.\
-`  That갽s why 24 hours a day, 365 days a year, you have to make sure that you constantly honor the spirits of your ancestors and never offend the gods or the Buddha, all based on the religious beliefs of the village.@ It갽s no wonder that the younger villagers never come back after they leave for the city.\
+`  The elders of the village are incredibly narrow-minded and unaccommodating.@ As such, you can혖ft break any of the rules where one of the villagers might see.@ Whenever one of the rules is about to slip your mind, there혖fs always someone watching, ready to chew you out at the top of their lungs.\
+`  They expect regular worship before the Jizo statue or the miniature shrine, help carrying out certain rituals, and all sorts of other things.@ I혖fm not from around here, so it would be nice if they혖fd explain things a little more patiently, but they don혖ft seem to care.@ They just berate me as if I혖fm the one lacking common sense.\
+`  That혖fs why 24 hours a day, 365 days a year, you have to make sure that you constantly honor the spirits of your ancestors and never offend the gods or the Buddha, all based on the religious beliefs of the village.@ It혖fs no wonder that the younger villagers never come back after they leave for the city.\
 `  I completely intend to do as the Romans do here.@ But every now and then, I just happen to forget tiny little rules (actually, it would be more accurate to just call it "etiquette," in this case), no harm intended.@ The villagers used to nag me to death whenever they saw that happen, but once I started ignoring them, they eventually stopped saying anything.\
-`  I갽m perfectly fine with being ostracized.@ It갽s not like I moved here for the sake of mingling with the villagers.@ I only ended up here because of a prophecy my parents heard.\
-`  My family doesn갽t seem to have any problems with this stifling, tiring, and strange village.@ They갽ve always been happier having their lives dictated by divine forces or whatever in the first place.@ I guess it갽s easier on them when what they have to do is clearly laid out in front of them, no matter how harsh it may be.@ The thing that my family has the hardest time with is being expected to respond to someone else갽s circumstances or mood on the fly.\
-`  Of course, they갽re just playing along on the surface.@ They don갽t genuinely revere the gods or anyone갽s ancestors.@ After all, what they really worship is that sun god of destiny that Mr. Soothsaying Guru always went on about, the great Yada-Yada-So-And-So.\
+`  I혖fm perfectly fine with being ostracized.@ It혖fs not like I moved here for the sake of mingling with the villagers.@ I only ended up here because of a prophecy my parents heard.\
+`  My family doesn혖ft seem to have any problems with this stifling, tiring, and strange village.@ They혖fve always been happier having their lives dictated by divine forces or whatever in the first place.@ I guess it혖fs easier on them when what they have to do is clearly laid out in front of them, no matter how harsh it may be.@ The thing that my family has the hardest time with is being expected to respond to someone else혖fs circumstances or mood on the fly.\
+`  Of course, they혖fre just playing along on the surface.@ They don혖ft genuinely revere the gods or anyone혖fs ancestors.@ After all, what they really worship is that sun god of destiny that Mr. Soothsaying Guru always went on about, the great Yada-Yada-So-And-So.\
 `  Just like that, we slowly adapted to life in this suffocating village, and soon enough, a year had passed...\
 
 ; BILLYDEBUG BG? BEDROOM
@@ -546,24 +545,24 @@ bgmstop
 bg "bmp/maebara/jisitu3.jpg",10
 lsp 16,":a;bmp/tati/ara/ara_d1.png",105,0
 
-`  "Come on, wake up!@ You갽ve gotta get up, Chiharu, it갽s incredible!@ Just look...!"\
+`  "Come on, wake up!@ You혖fve gotta get up, Chiharu, it혖fs incredible!@ Just look...!"\
 
 csp -1
 
-`  I glanced at the clock, and it wasn갽t even 6 AM yet.@ It seemed my brother was making a fuss after looking out at the sunrise.\
-`  ...I갽ll admit that the New Year갽s sunrise is worth seeing, but if it갽s any other day of the year, I couldn갽t care less.\
+`  I glanced at the clock, and it wasn혖ft even 6 AM yet.@ It seemed my brother was making a fuss after looking out at the sunrise.\
+`  ...I혖fll admit that the New Year혖fs sunrise is worth seeing, but if it혖fs any other day of the year, I couldn혖ft care less.\
 
 ;bg "bmp/efe/black.png",10
 
-`  I tried to go back to sleep, but my brother wouldn갽t give it a rest.@ I felt like complaining to my mom, but unfortunately, she had left for a three-day, two-night hot springs vacation with a friend just the previous day.\
-`  Whatever.@ I갽ll get up.@ I gave in, knowing my oldest brother didn갽t have much capacity for picking up on other people갽s feelings.\
-`  "Yaaaawn.@ ...What갽s so incredible...?"\
+`  I tried to go back to sleep, but my brother wouldn혖ft give it a rest.@ I felt like complaining to my mom, but unfortunately, she had left for a three-day, two-night hot springs vacation with a friend just the previous day.\
+`  Whatever.@ I혖fll get up.@ I gave in, knowing my oldest brother didn혖ft have much capacity for picking up on other people혖fs feelings.\
+`  "Yaaaawn.@ ...What혖fs so incredible...?"\
 
 bg "bmp/manga/hirasaka1.png",10
 bgm "bgm/lsys12.ogg"
 
 `  When I came over to look, I saw my dad and my other brother both staring up at the freshly risen morning sun, using their hands to shield their eyes.\
-`  ...What?@ Is it a solar eclipse or something?@ But there갽s no reason to wake me up this early for that...\
+`  ...What?@ Is it a solar eclipse or something?@ But there혖fs no reason to wake me up this early for that...\
 `  ...Huh?\
 `  ...\
 `  "...Huh?!"\
@@ -572,21 +571,21 @@ bgm "bgm/lsys12.ogg"
 
 bgmstop
 
-`  "There갽s.../
+`  "There혖fs.../
 
 bg "bmp/new/twosuns.png",10
 bgm "me/A3_01005.WAV"
 
 ` t...@ two suns..."\
 `  Almost like a pair of eyes, two suns were lined up across from each other in the sky.\
-`  Is this...@ even possible...?!@ I can갽t believe it.@ I갽ve never heard of a phenomenon like this...@ Is it some kind of mirage?@ But if I remember right, mirages usually distort an image vertically...@ ...I갽ve never heard of one...@ that goes sideways...\
+`  Is this...@ even possible...?!@ I can혖ft believe it.@ I혖fve never heard of a phenomenon like this...@ Is it some kind of mirage?@ But if I remember right, mirages usually distort an image vertically...@ ...I혖fve never heard of one...@ that goes sideways...\
 `  While we were staring out the window in amazement, our neighbor caught sight of us.\
-`  Our next door neighbor is Suzuki-san, an old man living together with his son.@ They moved here around the same time we did.@ The reason they moved was just about the same, too.@ In other words, we갽re both victims of the same fortune-teller.\
+`  Our next door neighbor is Suzuki-san, an old man living together with his son.@ They moved here around the same time we did.@ The reason they moved was just about the same, too.@ In other words, we혖fre both victims of the same fortune-teller.\
 
 lsp 16,":a;bmp/tati/oka/oka_d6a.png",105,0
 bgm "bgm/lsys11.ogg"
 
-`  "Hey there, g갽morning to you, Nakamura-san...!@ Well...@ isn갽t this a strange sight...!"\
+`  "Hey there, g혖fmorning to you, Nakamura-san...!@ Well...@ isn혖ft this a strange sight...!"\
 `  "Good morning...@ I really...@wonder what this is all about..."\
 `  There was no way we could know that.\
 `  The Nakamura household and the Suzuki household--a total of six people--looked up at the two suns in awe, without a care for protecting our eyes...\
@@ -597,7 +596,7 @@ bg "bmp/efe/black.png",10
 `  ...\
 bgmstop
 
-`  "...Now isn갽t this an interesting sight."\
+`  "...Now isn혖ft this an interesting sight."\
 bgm "bgm/lsys12.ogg"
 
 bg "bmp/new/twosuns.png",10
@@ -609,12 +608,12 @@ bg "bmp/new/twosuns.png",10
 `  In a worst case scenario, she had expected to spend several weeks killing time in this boring village, but it had only taken her one night to bear witness to it.\
 `  Takano double-checked her belongings and gathered them all together.@ The contents of her luggage were more than enough to get her stopped by a police officer, with everything ranging from a large knife to a shotgun designed for hunting.\
 `  Her adventure had already begun back when she started making her preparations.@ Thus, she had arranged for every bit of equipment she was able to obtain and carry within Japan.@ Of course, she had also packed plenty of tools to satisfy her sense of intellectual curiosity, like cameras, notebooks, and research files.\
-`  However, her motorcycle had stopped working.@ The engine wouldn갽t start.@ No matter how she coaxed it, it wouldn갽t give the slightest response.\
+`  However, her motorcycle had stopped working.@ The engine wouldn혖ft start.@ No matter how she coaxed it, it wouldn혖ft give the slightest response.\
 `  It suddenly broke down, even though it had been driving so smoothly just the other day?@ There was something clearly unnatural about it.\
 `  "...So you want me to do the rest of the journey on my own feet, hm?@ Hehe."\
-`  Now, where to begin?@ I suppose a little exploring comes first.@ Takano began a leisurely walk down the road.@ If only it weren갽t for the shotgun she had strapped to her back, it might have looked like a lovely stroll under the morning sun.\
-`  The village was unbelievably quiet.@ There was the sound of the wind rustling tree branches...@ but beyond that, there wasn갽t a single noise created by another living being.@ It was unthinkable not to hear so much as a bird chirping so deep in the mountains.\
-`  As such...@ people갽s voices carried very clearly.\
+`  Now, where to begin?@ I suppose a little exploring comes first.@ Takano began a leisurely walk down the road.@ If only it weren혖ft for the shotgun she had strapped to her back, it might have looked like a lovely stroll under the morning sun.\
+`  The village was unbelievably quiet.@ There was the sound of the wind rustling tree branches...@ but beyond that, there wasn혖ft a single noise created by another living being.@ It was unthinkable not to hear so much as a bird chirping so deep in the mountains.\
+`  As such...@ people혖fs voices carried very clearly.\
 
 bgmstop
 
@@ -632,53 +631,53 @@ bg "bmp/efe/gun_2b.bmp",10
 lsp 16,":a;bmp/tati/rik/rik_d6a.png",105,0
 
 `  "Eek...!"\
-`  "Good morning.@ Isn갽t it a lovely morning with two suns shining down?"\
+`  "Good morning.@ Isn혖ft it a lovely morning with two suns shining down?"\
 
 lsp 16,":a;bmp/tati/rik/rik_d4a.png",105,0
 
-`  "W-W-What is this, what갽s going on...?!@ ...I-I갽m sorry, I갽m sorry, please forgive me...!"\
-`  The girl seemed to think that she had stumbled onto some sort of forbidden ground in the village, and that갽s why she was being threatened with a gun.\
+`  "W-W-What is this, what혖fs going on...?!@ ...I-I혖fm sorry, I혖fm sorry, please forgive me...!"\
+`  The girl seemed to think that she had stumbled onto some sort of forbidden ground in the village, and that혖fs why she was being threatened with a gun.\
 `  The sight of the frightened girl falling on her backside was quite gratifying, so I satisfied myself with that and lowered my gun.\
-`  "What갽s your name?"\
+`  "What혖fs your name?"\
 
 lsp 16,":a;bmp/tati/rik/rik_d3a.png",105,0
 bgm "bgm/lsys11.ogg"
 
-`  "N-Nakamura.@ I갽m Chiharu Nakamura.@ Um, I-I just moved here last year...!"\
+`  "N-Nakamura.@ I혖fm Chiharu Nakamura.@ Um, I-I just moved here last year...!"\
 `  "Aha, I see...@ My condolences."\
-`  Takano grinned, having come to some sort of understanding.@ Chiharu didn갽t have a clue what was going on, but she relaxed a little after the other woman lowered her gun, slowly getting back up on her feet.\
-`  And once she was able to get a good look at Takano갽s appearance, she realized she wasn갽t someone from the village.\
+`  Takano grinned, having come to some sort of understanding.@ Chiharu didn혖ft have a clue what was going on, but she relaxed a little after the other woman lowered her gun, slowly getting back up on her feet.\
+`  And once she was able to get a good look at Takano혖fs appearance, she realized she wasn혖ft someone from the village.\
 
 bg "bmp/forest/forest_p2a.bmp",10
 lsp 16,":a;bmp/tati/rik/rik_d3.png",105,0
 
 `  "Um...@ Who are you...?"\
 `  "Miyoko Takano.@ You can just call me Miyoko, Chiharu."\
-`  "M-Miyoko-san, you갽re...@ haaah...@ I갽m so glad.@ I really thought...@ there wasn갽t anyone else left..."\
+`  "M-Miyoko-san, you혖fre...@ haaah...@ I혖fm so glad.@ I really thought...@ there wasn혖ft anyone else left..."\
 `  "What do you mean?"\
-`  "W-Well...@ Our neighbors are all gone.@ All the houses except for ours and Suzuki-san갽s are empty...!@ They left their front doors wide open, too, so we were wondering if they all went off somewhere..."\
+`  "W-Well...@ Our neighbors are all gone.@ All the houses except for ours and Suzuki-san혖fs are empty...!@ They left their front doors wide open, too, so we were wondering if they all went off somewhere..."\
 `  "Who is Suzuki-san?"\
 
 lsp 16,":a;bmp/tati/rik/rik_d3a.png",105,0
 
-`  "U-Uh, he갽s someone who moved here at the same time as us, about a year ago.@ He갽s an old man living with his son..."\
-`  "I see.@ So there갽s no sign of anyone besides your two families, hm?"\
+`  "U-Uh, he혖fs someone who moved here at the same time as us, about a year ago.@ He혖fs an old man living with his son..."\
+`  "I see.@ So there혖fs no sign of anyone besides your two families, hm?"\
 `  There were many early risers among the village elders.@ Knowing that, there should have been gatherings of people looking up at the two suns, legitimately thunderstruck.@ And yet, it had quickly become apparent that there was no one else around.@ Every house was completely deserted, and all the villagers had disappeared when no one was looking...@ Once they noticed that, the two families had started searching around the village to see if anyone else was still there.\
-`  "You probably aren갽t going to find anyone else."\
-`  "...Where...@ did they all go...?@ ...I wonder if this is some kind of event.@ Maybe they갽re off holding a festival somewhere, and we just don갽t know about it..."\
-`  "But as far as I know, this village doesn갽t hold any festivals like that."\
+`  "You probably aren혖ft going to find anyone else."\
+`  "...Where...@ did they all go...?@ ...I wonder if this is some kind of event.@ Maybe they혖fre off holding a festival somewhere, and we just don혖ft know about it..."\
+`  "But as far as I know, this village doesn혖ft hold any festivals like that."\
 `  "Is...@ that so?"\
-`  "They갽re probably in the mountains."\
+`  "They혖fre probably in the mountains."\
 `  "The mountains?"\
-`  "Don갽t worry about it.@ Besides, whether you go searching for them or not, they갽re going to come to us sooner or later."\
+`  "Don혖ft worry about it.@ Besides, whether you go searching for them or not, they혖fre going to come to us sooner or later."\
 `  Chiharu was completely thrown for a loop.@ Still, she could see that Takano was keeping her cool despite the situation.\
 
 lsp 16,":a;bmp/tati/rik/rik_d3.png",105,0
 
-`  "Um...@ Would you like to come back to our house?@ In times like this, I think it갽s best to stick together..."\
-`  "...That갽s true.@ I suppose any help would be welcome."\
-`  Takano preferred working alone, but she figured there was no harm in meeting Chiharu갽s family.@ Knowing what was about to happen...@ she would need all the help she could get.\
-`  "T-Then, let갽s go.@ ...It갽s this way."\
+`  "Um...@ Would you like to come back to our house?@ In times like this, I think it혖fs best to stick together..."\
+`  "...That혖fs true.@ I suppose any help would be welcome."\
+`  Takano preferred working alone, but she figured there was no harm in meeting Chiharu혖fs family.@ Knowing what was about to happen...@ she would need all the help she could get.\
+`  "T-Then, let혖fs go.@ ...It혖fs this way."\
 `  "Oh, wait just a moment."\
 `  Takano took out her notebook and started moving her pen across the page.\
 
@@ -696,11 +695,11 @@ lsp 16,":a;bmp/tati/rik/rik_d3.png",105,0
 
 `  "On some nights, you can see really pretty fireflies in the village..."\
 `  "They really were pretty.@ The way the dim green lights danced about was simply beautiful."\
-`  ...That갽s it.@ Fireflies.@ Firefly lights.\
+`  ...That혖fs it.@ Fireflies.@ Firefly lights.\
 
 csp -1
 
-`  Takano갽s pen glided over the cover of the notebook.@ That was the title.\
+`  Takano혖fs pen glided over the cover of the notebook.@ That was the title.\
 
 bgmstop
 
