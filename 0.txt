@@ -1,0 +1,762 @@
+*define
+
+stralias dsc00038,"bmp/omake/dsc00038.jpg" ; normal office
+stralias dsc00103,"bmp/omake/dsc00103.jpg" ; ssr office
+
+stralias bea_akuwaraia1,":a;bmp/tati/bea/1/bea_akuwaraia1.png"
+stralias bea_akuwaraia2,":a;bmp/tati/bea/1/bea_akuwaraia2.png"
+stralias bea_akuwaraia3,":a;bmp/tati/bea/1/bea_akuwaraia3.png"
+stralias cg30030,":a;bmp/omake/cg30030.png"
+stralias ron_waraia1,":a;bmp/tati/ron/1/ron_waraia1.png"
+stralias ron_waraia2,":a;bmp/tati/ron/1/ron_waraia2.png"
+stralias ron_defa1,":a;bmp/tati/ron/1/ron_defa1.png"
+stralias the_1f,":a;bmp/efe/the_1f.bmp"
+
+; needed for meta layer
+stralias witchh2,""
+stralias witchh12,""
+stralias witchh15,""
+stralias last_meta_l,""
+stralias last_meta_c,""
+stralias last_meta_r,""
+numalias last_meta_l_trans,0
+numalias last_meta_c_trans,0
+numalias last_meta_r_trans,0
+numalias meta_tmp1,0
+numalias meta_tmp3,0
+numalias meta_tmp4,0
+numalias msp_l,880
+numalias msp_c,881
+numalias msp_r,882
+
+numalias msp_kuro,889
+numalias msp_hana_d,887
+numalias msp_hana_u,888
+
+
+defsub meta_set
+defsub meta_ld
+defsub mldt
+
+effect 10,10,400
+effect 22,10,400
+effect 24,18,300,":c;Bmp\Efe\right.bmp"
+effect 28,18,300,":c;Bmp\Efe\c.bmp"
+
+bgmfadeout 2000
+
+game
+*start
+
+setcursor 0,":l/3,160,2;bmp/cursor0.bmp",0,0
+setcursor 1,":l/3,160,2;bmp/cursor1.bmp",0,0
+windoweffect 10,400
+
+caption "Umineko Tips Alpha v0.1"
+
+bg the_1f,10
+
+*epsel
+`Please select an Episode
+br
+
+select "`Episode 2",*ep2sel,
+"`Episode 3",*ep3sel,
+"`Episode 4",*ep4sel,
+"`Episode 5",*selplaceholder,
+"`Episode 6",*selplaceholder,
+"`Episode 8",*ep8sel,
+"`Explanation",*selexp
+
+;*ep1sel
+
+*ep2sel
+`Episode 2 Tips
+br
+
+select "`Important Facts Concerning Magic",*placeholder,
+"`- Back to Episodes -",*epsel
+
+*ep3sel
+`Episode 3 Tips
+br
+
+select "`On Anti-Mystery and Anti-Fantasy",*oamaaf_start,
+"`Letter from a Summoner",*placeholder,
+"`- Back to Episodes -",*epsel
+
+*ep4sel
+`Episode 4 Tips
+br
+
+select "`A Certain Witch Hunter's Interview Tape",*placeholder,
+"`- Back to Episodes -",*epsel
+
+;*ep5sel
+;*ep6sel
+;*ep7sel
+
+*ep8sel
+`Episode 8 Tips
+br
+
+select "`The Last and First Gift",*tlafg_start,
+"`- Back to Episodes -",*epsel
+
+*selplaceholder
+
+`  There are no tips available for the Episode you have selected.\
+
+goto *epsel
+
+*selexp
+
+bg cg30030,10
+bgm "bgm/apathy.ogg"
+
+`  Hello, everyone.@ This is Billy.@
+`  Since this is a very early preview build, things in the top menu may not be as clear or intuitive as they would be in a finished project.@
+` In this iteration of UmiTips, the game starts on a top menu with an Episode Select.@ This menu is structured under the assumption that you have /finished/ the Episode you're selecting.@ (ie, don't read anything in the Ep3 menu until you've finished Ep3)\
+
+`  You may have also noticed Episodes 1 and 7 are missing.@ That's because they actually got no booklet tips at all!@
+`  Booklet tips did not start releasing until June of 2008, a full 6 months after Episode 2's original Comiket release date.@ Episode 7 just flat out got no tips at all, as far as I can tell.\
+
+`  I do not intend on porting any of the tips from Episodes 5 or 6.@ There are also several tips from Episodes 2-8 that I do not intend on porting either. This is due to them appearing across Tsubasa, Hane, and Saku.@
+`  As of the time I am writing this, MangaGamer has announced an official release for these fandiscs.@ Please support that release whenever it comes out.@
+`  On the off chance I finish everything I want to do with this release before MangaGamer has released their official version of Saku, I will consider adding these extra tips via a separate patch or something.\
+
+`  The tips I do intend to port either never received VN adaptations at all or only received ports via the console version of Saku.@ Phase 1 of development will cover the former while Phase 2 will cover the latter.@
+`  Phase 2 will also be where I attempt to polish up the release to the standards set by other Umineko releases, both official and unofficial.\
+
+`  "On Anti-Mystery and Anti-Fantasy" was originally translated by lee_bella. I gave it an editing pass while referencing the original booklet. Some typos were fixed and some sentences had slight wording changes.@
+`  "The Last and First Gift" was originally translated by Tarable Translations. Edits were minimal; I fixed one typo and replaced some punctuation with more ONSEN-friendly characters.@
+`  The manga panels in "The Last and First Gift" are pulled from Tarable Translations' translation of Hotarubi no Tomoru Koro ni Chapter 0.\
+
+`  Thank you for your interest in UmiTips.@ I hope you enjoy your stay.\
+
+bg the_1f,10
+bgmstop
+goto *epsel
+
+; On Anti-Mystery and Anti-Fantasy
+*oamaaf_start
+caption "On Anti-Mystery and Anti-Fantasy"
+bg dsc00038,10
+
+;goto *oamaaf_bea
+
+`On Anti-Mystery and Anti-Fantasy
+`                        Ryukishi07\
+
+bgm "bgm/far.ogg"
+
+`  This time around, the tagline for EP3 has changed from "Deducible? Not deducible?" to "Anti-Fantasy vs. Anti-Mystery".@ Those who have finished reading EP3 might already understand that the world of Umineko is precisely as the tagline says.@ Although everyone has heard of "mystery" and "fantasy", you might not have heard of "anti-mystery" or "anti-fantasy".@ What does it mean to be "anti"?@ Please allow me to explain.\
+
+`  The meaning of "Anti-Fantasy" is as the words say.@ "Fantastic" phenomena cannot exist in the world we live in.@ Those dream-like fairy-tales are nothing more than fiction.@ Even if someone believes in their existence, it's really nothing more than an exaggerated, politically-inclined delusion.\
+
+`  Do you truly believe that Earth was created by the Creator in seven days?@ Do you believe that Izanagi used a spear to "dig" up the first island of the Japanese archipelago?@ Impossible.@ The Big Bang, collision between asteroids, movement of land mass -- using these theories to explain how lands are formed is the plausible way to go.\
+
+`  To those people who love to talk about scientific theories in Japanese History or World History classes, I would like to welcome you to the world of "Anti-Fantasy".@ To those people who do not believe in "fantasy" at heart but who are good at conforming, I would also like to welcome you to the world of "Anti-Fantasy".\
+
+`  Witches and magic cannot possibly exist.@ Everything can only be revealed through the method of deduction.@ There must be a lot of people out there who believe earnestly in such view point.@ This thing that I call "Anti-Fantasy" is really our basic thought process, our common sense.@ As long as you adopt this way of thinking, there is no way you will surrender to Umineko.@ Because witches and magic do not exist.\
+
+`  Now then, the direct explanation of "Anti-Fantasy" is complete.@ And now we will move on to the topic of "Anti-Mystery".\
+
+`  First off, before we talk about "Anti-Mystery", we need to first dive into the topic of "mystery novels".@ To fully explain what a "mystery novel" is, this little program is not enough.@ Therefore, we shall only dabble in it briefly.\
+
+`  When one talks about "mystery novels", one usually means "traditional mystery novels".@ To put it simply, the traditional mystery novel is a type of novel where the reader is able to use the information given in the story to solve the case before the solution is given out.\
+
+;`  This is the main trope of mystery stories.@ It's perhaps appropriate to grant it the title of "traditional".@ 
+`  It is then perhaps appropriate to grant mystery novels that carry this hallmark with the classification of "traditional".@ Traditional mysteries are a battle of wit between the author and the reader during the reading process.@ From this perspective, traditional mystery is the most entertaining of the fiction subgenres.@ By "entertaining", I mean that high quality traditional mysteries are similar to solving game-like riddles or mathematical problems; they are the purified, enlightened condensation of many great works by famous mystery authors.\
+
+`  Nonetheless, purely traditional mysteries will eventually run into certain obstacles, namely, a famous problem called the "later Queen problem".@ To put it simply, this "later Queen problem" concerns the inability to determine whether the information that the detective (the reader) can obtain in the story is complete or not.@ Good detectives normally use evidence and clues they've found to come up with a solid deduction and a plausible conclusion, but an important piece of criteria must be satisfied before the solution can be regarded as completely accurate.\
+
+`  That is, the evidence and clues that the detective are analyzing must be "complete".@ In most cases, the detective will thoroughly search the crime scene, and list the evidence and clues that they have discovered.@ However, the possibility that "there exists decisive evidence X which the detective is unable to unearth" cannot be denied.@ It means that no matter how much the famous detective shows off their great deduction skills, their solution can only "constructed together from the clues and evidence that were present at the time".@ To put it another way, if the "undiscovered decisive evidence X" is later added into the story, the solution the detective came up with might be struck down entirely.\
+
+`  Therefore, a detective not only has to come up with a solution according to the evidence, but they also must prove that "no undiscovered evidence exists".@ There should be no further need to explain this, as this is the nature of the "Devil's Proof".@ It's impossible to prove the accuracy of the solution that the detective must have come up with in the end.@ Even though traditional mysteries ought to play out as a completely plausible puzzle game, at this point they are trapped by the fact that they cannot plausibly reveal the truth.\
+
+`  In any given story, it could be repeatedly stated that there is "only one master key", but one cannot deny the possibility that the master key has been duplicated.@ Even if a character were to claim it is impossible to make a duplicate, one cannot disprove the possibility that "the key has been duplicated without the speaker's knowledge."@ Even if the key is molded into a shape that makes it impossible to duplicate, one cannot disprove the possibility that "there is unknown technology out there that makes duplicating the key possible".\
+
+`  The witness might have been lying.@
+`  The police might have made some blunder during the processing stage.@
+`  A key character might have been bribed by the culprit.@
+`  The culprit might have placed certain evidence that would lead the detective in the wrong direction (i.e. red herring).@
+`  If we cannot completely exclude these "unexpected possibilities", we might not even be able to discover the real hints.@ Regrettably, this "disproving" cannot be accomplished.\
+
+`  Stepping back, assume that the detective (the reader) has come up with a very plausible solution, and the murderer has confessed to the crime.@ As long as the undiscovered evidence X still exists, one cannot disprove the possibility that "the accomplice admits to the crime in order to protect the true murderer".@
+`  In fact, a similar situation as described above has appeared in Watanagashi-hen of Higurashi no Naku Koro ni.@ Before Meakashi-hen was released, almost all the readers had come up with the wrong culprit for the events that had occurred in Watanagashi-hen.\
+
+`  Examining Watanagashi-hen alone, when the culprit admits to the conclusion Rena comes up with in her deduction, that particular deduction is "complete".@ That means the deduction that marks "XX as the culprit" was "accurate at that moment in time".@ Then in Meakashi-hen, we are suddenly given a lot of new information that wasn't present in Watanagashi-hen.@ Appropriately, the fact that "the true culprit is someone else" can be easily understood.\
+
+`  After reading through Meakashi-hen, the reader would likely think this revised solution is correct.@ However, at the time of Watanagashi-hen, they would not have been able to come up with this solution.@ Nonetheless, the solution that is constructed in Watanagashi-hen is not wrong in itself, even though the identity of the true culprit is wrong.@ The solution for Watanagashi-hen is entirely correct "at the time", because this is the "truth" that is constructed using the pre-existing clues "at the time".@ However, the real misstep lies in "easily deducing the identity of the murderer at the time of Watanagashi-hen".\
+
+`  This is the "later Queen problem".\
+
+`  After the reader finishes reading Meakashi-hen and receives a concrete answer, he or she has more or less accepted this truth.@ Even so, if the "later Queen problem" exists, then there's no guarantee that what is being revealed in Meakashi-hen is the real truth.\
+
+`  As an outrageous example, let say in the future, Ryukishi07 decides to release a truth exposing arc called "Higurashi no Naku Koro ni Shin".@ In it, he claims that "the truth in Watanagashi-hen and Meakashi-hen are both disguises, and the real culprit is the unexpected character XX!", in addition to adding new information to the story.@ In this case, the new truth would obviously take over the old one, and the truth in Meakashi-hen becomes obsolete.\
+
+`  (The scary thing is that even in such an extreme example, as long as one sees Watanagashi-hen, Meakashi-hen, and "Higurashi no Naku Koro ni Shin" as a complete series, then everything makes sense.@ No matter how much new "additional information" appears, it's impossible to prove the new information was "added after the fact".@ Also, as long as the "later Queen problem" persists, no matter how much new information is added, it is still legitimate.@ That's because the existence of unknown clues "cannot be disproved".)\
+
+`  Although this is a bit contradictory on my part, I still want to say that the seemingly complete opposite plotlines in Watanagashi-hen and Meakashi-hen are actually the same.@ At the time of writing, there didn't exist any "information added after the fact".@ Or so I say, but it's impossible to prove whether it's true or not.\
+
+`  Putting it all together, what I'm trying to say is that the kind of answer one draws from a given story--or even the truth that the author (god) provides--isn't absolute.@ The truth dictated by the "author", an all powerful god, can be revised by the future selves of the author, entities from an even higher plane.@ That means whenever one runs into the "later Queen problem", the mystery in question would fall into an extreme predicament.@ The platonic ideal of the "mystery" in a given mystery novel would, in fact, cause itself to be denied, which is rather ironic.\
+
+`  With a bit of sarcasm on my part, I call this phenomenon "Anti-Mystery".\
+
+`  As long as the "Devil's Proof" exists, neither we nor the detectives can disprove the existence of an "unknown evidence X".@ As long as the "Devil's Proof" hasn't been broken, we aren't even qualified to try inferring.@ Even when someone falls down dead right before our eyes, a locked room is established, and there are suspicious evidence everywhere, we still can't begin our deduction.@ Be it crime scene investigation, processing evidence, or witness testimony, what we need to clarify first and foremost is "that thing". (i.e. "are we able to form our deduction with all the evidence we have so far?")\
+
+`  Historically when famous detectives arrive at the crime scene, they would look up to the sky and ask the omnipotent god (author) one question:@
+`  "Is this world (book) really a traditional mystery world (am I able to perform deduction)?"@
+`  And then, god would reply:@
+`  "Of course this book is a traditional mystery.@ You will definitely be able to solve all the riddles.@ Get on with it and perform your deduction."@
+`  The detectives would then mumble in their minds "Ah, that's good. Now I can rest easy and perform my deduction", and begin their investigation.\
+
+`  The scene must surely appear in real life murder cases too.@ The police seal off the area before the inspectors clap their hands together while looking up at the sky.@
+`  "God, can this case be solved?@ If we don't get a clear answer, we can't even begin our investigation, let alone our deduction.@ If this is an 'irregular mystery', a 'social commentary mystery', or even one of those increasingly popular 'supernatural fantasies', then it's useless to perform a deduction."@
+`  But this is real life, therefore god isn't going to answer.\
+
+`  So, should we clap our hands together until god appears?@ Or should we forget about the investigation since we don't have god's guidance?\
+
+`  When the aforementioned situation crossed my mind, I thought it was funny, but also I've discovered for the first time that this concept of "Anti-Mystery" might actually exist.@ Those people who treat mysteries as mathematical problems or look for logical solutions might seem to be going on the right track, but they are committing a terrible error.\
+
+`  Without the assumption that "this mystery can be logically solved", these people can't solve the mystery.@ However, this assumption cannot possibly be established.@ That means without the guidance of god, these people who wildly conduct their deduction are nothing more than uncultured idiots who can't even exercise a little of their "grey cells".@ Their IQs are comparable to insects.\
+
+`  In Umineko no Naku Koro ni, Beatrice often mocks this kind of reader.@ Even though they are single-mindedly trying to come up with a equation-like answer, so long as there isn't even an assurance of the most basic of possible solutions, they have no chance of winning.@ To use boxing as an analogy, it's as if a boxer is saying "I only want to fight with an opponent whom I can win".@ To the Witch Beatrice, those people who stubbornly claim to deny witches and expose the truth are as laughable as that boxer.\
+
+*oamaaf_bea
+
+meta_set
+
+lsp 880,bea_akuwaraia3,128,0,255
+print 24
+
+`  "Would you seriously try to solve Umineko right after finishing Episode 1?@ Since no declaration about its solvability was made, then it cannot seriously considered a challenge.@ Due to this story not specifying that 'all the evidence has been gathered', then it cannot be considered a challenge! Kukukuku!"\
+
+lsp 880,bea_akuwaraia1,128,0,255
+print 24
+
+`  "How foolish. When and where have you seen this kind of proof before?@ During an entrance exam, would you ask god 'will I be able to enter this school'?@ If god doesn't offer you guidance, would you not even begin filling out your answers?@/
+
+lsp 880,bea_akuwaraia2,128,0,255
+print 24
+
+` Kufufuahahahahaha!"\
+
+`  "If your mother doesn't tell you, 'good boy, you'll definitely pass', would you even step foot into the exam room?@ Hahahahahaha!"\
+
+lsp 880,bea_akuwaraia3,128,0,255
+print 24
+
+`  "You seem to finally understand how cheap this human creation called 'mystery' is.@ In that case, you should also be able to sympathize with my desire to laugh.@ Well then, welcome to the world of 'Anti-Mystery'."\
+
+lsp 880,bea_akuwaraia1,128,0,255
+print 24
+
+`  "Isn't there a saying that goes like 'There are too many things in this world that science cannot explain'?@ That's right.@ Everything in this world cannot be completely proven!@ The 'unknown element X' which we have not anticipated can exist.@ No one can disprove that."\
+
+`  "Deduction?@ Mystery novels?@ Tradition? Ahahahahaha! How laughable!!"@
+`  "To all the good boys and girls reading this, whenever you get a new mystery novel, make sure mommy reads it first.@ That way, you can ask her 'are the riddles in this book something I can solve?'@ If mommy nods her head, then you are permitted to consume the baby food that mommy has chewed up and spat out for you.@/
+
+lsp 880,bea_akuwaraia2,128,0,255
+print 24
+
+dwave "se/ahaha.wav"
+`  HAHAHAHAHAHAHA!"\
+;if you have bought mystery books then let Mummy read it first, and then ask her, 'Are the riddles in this book something I can solve?' If Mummy nods her head, then you can go on and read. You can just eat the baby food Mummy has already chewed up for you. HAHAHAHAHAHA!"\
+
+*oamaaf_ron
+
+lsp 879,ron_waraia2,-128,0,255
+print 24
+
+`  "Milady, truly, this type of talk is too tasteless."\
+
+csp 879
+csp 880
+print 24
+
+lsp 879,ron_defa1,0,0,255
+print 24
+
+`  "The 'Red Truth', which Lady Beatrice utilizes, is the antithesis of mystery.@ The content that the Red conveys is the word of god; it becomes truth without the need for evidence or proof.@ As long as the Red is used to declare that 'the door can only be unlocked with a master key', any other theories will be rendered useless.@ Theories about wires and fishing line will also be discarded.@ Using this as a basis, one can use the Red to declare 'there are only five master keys; no other methods to unlock the door exist; the keys cannot be duplicated'.@ Those declarations will be rendered perfect."\
+
+`  "Looking back, is what one calls the 'Red Truth' really the absolute 'truth'?@ I'm afraid not even milady can confirm it.@ I presume some of you might have suspected whether you ought to believe in milady's 'Red Truth' or not?@ Yes, in this world, there is no such thing as truth that 'can be proven'.@ Therefore, if one wants to ask if one can believe this truth or not, please rephrase it in this manner:"@
+` 
+`  "Do I really trust her?"\
+
+lsp 879,ron_waraia1,0,0,255
+print 24
+
+
+`  "Someday, you will surely marry the person you love.@ Then on that destined day, the priest will surely ask you this same question.@ You wouldn't say 'it's impossible to prove what they say is true or not' in that kind of situation now, would you?@ Pukukukukuku."\
+
+lsp 879,ron_defa1,0,0,255
+print 24
+
+`  "In order to deny witches, one must enter the game between witches and humans.@ In your situation, you have no choice but to accept that the witch's 'Red Truth' is the truth.@ This is a game one plays to deny witches, and yet one must believe in the witch's words.@ What a hilarious contradiction."\
+
+`  "When you first heard of the rule of the 'Red Truth', you asked milady if the Red can be trusted.@ Milady replied with, 'This is a game between me and you.@ The rules of this game are sacred.@ Those who scorn the rules are not qualified to participate!'"@
+`  "Pukukuku...!"\
+
+lsp 879,ron_waraia2,0,0,255
+print 24
+
+`  "This means that you and milady have already established a sacred relationship of trust.@ This is indeed a connection even the other demons would envy.@ Pukuku...!"\
+
+lsp 879,ron_defa1,0,0,255
+print 24
+
+`  "Truth doesn't exist in this world.@ Even 'love', the so-called single element in this world, is no more than illusion and 'fantasy'.@ Perhaps those people who use 'mystery' to explain everything while denying 'fantasy' don't even have the right to love and be loved."\
+
+csp 879
+print 24
+
+csp -1
+print 24
+
+`  Dear reader, are you inclining towards 'Anti-Fantasy' or 'Anti-Mystery'?@ Or do you adapt to one or the other depending on the circumstances?@ Perhaps that would be the wisest choice.\
+
+`  An exaggerated heroic tale shared with friends -- Anti-Fantasy.@
+`  The intoxication that follows unrealistic dreams -- Anti-Mystery.@
+`  A gentle melody heard on an insomniac night -- Antimony music box.\
+
+`  Goodnight, dear reader.
+` 
+` 
+`                            (fin)\
+
+reset
+
+; The Last and First Gift
+*tlafg_start
+
+caption "The Last and First Gift"
+
+bg "bmp/efe/fure1.png",10
+
+`  "Oh, this takes me back...@/
+
+bgm "bgm/Haruka.ogg"
+
+` And it felt like just yesterday that IÅfd been playing around with Bern, too.@ I wonder when this much time passed.@ Oh well, whatever.@ IÅfm super thick paper.@ Rather than dwelling on memories of the past, I certainly, certainly have more fun tearing the wrapping off the chocolate called the future."\
+`  Lambdadelta welcomed a rare guest.\
+
+bg "bmp/efe/cateye_1.png",10
+
+`  It was one of the black cats that served under Bernkastel.@/
+
+bg "bmp/efe/letter1.bmp",10
+
+` It had come a long way, carrying a beautiful envelope in its mouth.\
+`  "Uh huh, youÅfve got it.@ That letter of yours is addressed to me; IÅfm none other than the Witch of Certainty, Lambda-chan-sama.@ Thanks for coming all this way, little kitty.@ Which would you like as your reward: chocolate senbei or chocolate arare?@ Oh, you donÅft want anything?@ Hmm, that so."\
+`  Cats canÅft eat chocolate.@ The black cat hung its head apologetically.\
+`  "Still, I never thought IÅfd see the day when that girl sent me a letter.@ I wonder whatÅfs gotten into her.@ Maybe she was on the very verge of death by boredom, and writing a letter was the only idea she could come up with?@ ...No, that would never happen with her.@ I get it now.@ She wants to bully me in a new game of hers, doesnÅft she?"\
+`  With a nasty smile on her face, Lambdadelta tapped the black cat on the nose.@ Of course, there was no way that the cat who delivered the letter could know what its contents were.\
+`  When Lambdadelta opened the envelope,/
+
+bg "bmp/efe/fure1.png",10
+lsp 16,":a;bmp/manga/kakera2.png"
+
+` a sparkling Fragment came rolling out in addition to the letter itself.\
+`  "My, my.@ Now hereÅfs something interesting."\
+`  Indeed, this was a Fragment; the crystallization of a single world, extracted from among the myriad of multicolored universes in existence.@ Heheh, I wonder what kind of world this Fragment contains.@ It has a pretty unique radiance to it.\
+`  "Not a bad idea, coming from her.@ Now then, let me take a look at this letter..."\
+
+csp -1
+bg "bmp/efe/letter1.bmp",10
+
+`  "Look whoÅfs talking.@ ...I see now.@ You got lonely because I stopped paying attention to you for awhile, didnÅft you?@ Heheheh, Bern is so cute."\
+`  "Aa~h!!@ I canÅft believe you missed me this much!@ Heheheh, I love you, too, BernÅÙ Alrighty, whatÅfs next?@ How am I supposed to play around with this Fragment?"\
+`  "Hmm...@ In other words, whether you have to drink mud, or whether you have every limb ripped from your body and end up crawling the ground like a worm, you just have to make it out alive in the end?@ Those kinds of games are my specialty, you know.@ ItÅfs not like you donÅft already know that.@ ...If sheÅfs throwing down the gauntlet in spite of that, I guess this really is a written challenge, after all.@ Oh, she is just the cutest thing."\
+`  The letter ended there.\
+
+bg "bmp/efe/fure1.png",10
+
+`  After reading that, there was nothing left but to take her up on the challenge.@ It had been awhile since Lambdadelta had played around with a game board of substance.@ Since Bernkastel had gone out of her way to pass it along, it was sure to be an entertaining one.\
+`  Lambdadelta touched the Fragment.\
+`  The moment she did,/
+
+bg "bmp/efe/fure2.png",10
+
+` an array of constellations was suspended in the air, pivoting around the Fragment and forming a miniature galaxy.\
+
+bg "bmp/manga/hirasaka1.png",10
+
+`  "...Oh, now this is nostalgic.@ So the stage is set in the Japanese countryside.@ Reminds me of Hinamizawa.@ ...Though, it looks like this place is more desolate than Hinamizawa ever was.@ ...Right then, time to pick my piece.@ Which one should I choose?"\
+`  Lambdadelta held out a hand, and white, black, blue, and red pieces in various shapes and sizes, reminiscent of chess, appeared in the air.\
+`  "Which one would be best?@ ...Hmm..."\
+`  To participate in a game within a Fragment, you first must send in a piece.@ In other words, this was much like the character select screen of a video game.\
+`  After folding her arms and giving it some deep thought, she eventually settled on a black piece.\
+`  She wasnÅft sure of the situation, but if the point of the game was to survive, she figured her best option would be a sturdy, clever all-rounder with a strong desire to live.\
+`  "...In which case, itÅfs gotta be this piece.@ LetÅfs go, my other self."\
+`  She plucked the piece out of midair, then tossed it into the galaxy.\
+`  As soon as she did,/
+
+bg "bmp/efe/fure2.png",10
+
+` an infinite number of dazzling lights scattered about, and within a moment, the world was completely buried in a sea of stars.\
+`  Within those bright lights, LambdadeltaÅfs consciousness was sucked away...\
+
+bg "bmp/efe/black.png",10
+
+`  ...............\
+`  ............\
+`  .........\
+`  ......\
+`  ...\
+
+bgmstop
+
+bg "bmp/new/jizo0.png",10
+bgm "me/A3_01005.WAV"
+
+`  Across from the Six Jizo, There was a small basin for washing hands.@ That was the entrance to the village.\
+`  I stopped my motorcycle there.@ I was anxious to enjoy the scenery down to the very soles of my feet.\
+`  The hue of the mountains was interwoven with the thick green of the trees.@ Come sunset, it was sure to cycle through various other shades and colors, creating a feast for the eyes.@ Although the sun was beating down strongly, there was something cool and refreshing about the air.\
+`  Nice scenery, and nice air.\
+`  Oh, whoops, thatÅfs right.@ YouÅfre not supposed to say that sort of thing aloud.@ ItÅfs rude to the people who live in the country.\
+`  ...Or wait, maybe it is alright.@ After all, if I canÅft say that, IÅfm not allowed to enter.\
+`  And so, I dared to put it into words.\
+`  "Nice scenery.@ Nice air.@ ...Hehehe."\
+`  I put down my backpack for a moment and took out my prized research notebook./
+
+bg "bmp/efe/nort2.png",10
+bgmstop
+bgm "bgm/apathy.ogg"
+
+`@ IÅfd been researching this village for a long time, but this would be the first time IÅfd actually set foot inside it.\
+`  IÅfd been studying the village, but I never went to visit it?@ If you think about it normally, it doesnÅft make much sense.@ ItÅfs the same sort of foolishness as trying to envision what a cake tastes like just from reading the recipe.\
+`  Still.@ ...If you simply eat a cake, you can learn what it tastes like.@ You can make a record of it, too.@ But what if it werenÅft a cake, but some strange, sludgy mystery item?@ There would be no telling if it was even edible, let alone what it tastes like.@ No, worse than that, itÅfd practically be emitting a skull-shaped cloud of smoke.\
+`  If it were some unidentifiable item...@ youÅfd save eating it for the very last step, wouldnÅft you?\
+`  That was the reason.\
+`  That was why only now, for the very first time, I had finally come to this village.\
+`  After performing sufficient research and preparations...@ I would finally get a taste of this mystery item...\
+`  Oh, right, itÅfs about time I introduce "myself."\
+`  My name is Miyoko Takano.@ IÅfm a carefree, freewheeling occult researcher and traveler.@ A lovely bachelorette who enjoys researching any and all legends that have a whiff of the occult, originating from the many different regions of Japan.\
+`  IÅfm of the age where, typically, IÅfd be expected to be a working woman.@ However, it seems I was born lucky.\
+`  My grandfather left behind a tremendous fortune when he passed away.@ He specifically named me in his will, and entrusted me with a large enough sum of money to buy a mansion anywhere in Japan.@ Thanks to that, my life is different from the average person.@ I donÅft have to earn my own living expenses, whittling away my life doing things I donÅft want to just for the sake of staying alive.@ I can devote the entirety of my existence to my lifeÅfs work.\
+`  See?@ If thatÅfs not being born lucky, then what is?@ Hehehe.\
+`  Though...@ ItÅfs likely I wasnÅft really born with that luck.\
+`  "IÅfve had it since I collected these."\
+`  I took something wrapped in a handkerchief out of my breast pocket and cradled it against my chest.@ I gently opened up the handkerchief,/
+
+bg "bmp/new/flags1.png",10
+
+` showing a glimpse of several miniature country flags.@ ...They were the twenty flags I had collected from kidÅfs meals as a child.@ My own special lucky charm, and the only one of its kind.\
+`  ThatÅfs why everything will certainly turn out okay in the end.@ I will certainly, certainly reach my goal.\
+
+bg "bmp/efe/black.png",10
+bgmstop
+
+`  ...Right then.@ Shall I give you a brief sightseeing tour?\
+
+bgm "bgm/lsys11.ogg"
+bg "bmp/new/jizo0.png",10
+
+`  To that side, you can see the villageÅfs entrance, marked by the six Jizos.@ The "rules" of this village come into effect starting there.\
+`  The first one involves this hand-washing basin.\
+`  Yes.@ As you can see, itÅfs just like the temizuya youÅfll often see around shrines.@ Naturally, the etiquette is quite similar, as well.@ You scoop up water with the ladle and cleanse the impurities from your hands.\
+`  In olden times, this area was a revered as a holy ground; a snowy mountain where ascetics would come seclude themselves.@ The guardians of said holy ground eventually decided to build a village here, and thatÅfs how this place came to be.@ According to legend, all the current villagers are the descendants of those guardians.@ The older villagers take that responsibility seriously, and to ensure that they donÅft carry any impurities onto these grounds--or perhaps to ensure they themselves are not impure--they live by strict rules.\
+`  But even that strict lifestyle of theirs, said to have continued for hundreds of years, couldnÅft remain untouched by the radical changes that came with the Showa period.@ The younger villagers, who learned about life in the outside world through television or school, found the strict precepts to be a mere nuisance.@ Even without the rules, there was nothing to keep youngsters tied down to a village way out in the sticks, so far in the middle of nowhere.\
+`  With no way to prevent the younger generationÅfs exodus, the village suffered heavy depopulation after World War II.@ By the end of it, the elderly villagers were the only ones left.@ And even their numbers continue to slowly dwindle as they die off from old age.\
+`  The population keeps decreasing, with no hopes of drawing in new blood.\
+`  Of course, with the way country life has been romanticized in recent years, there must be a fair share of whimsical people looking to move out to a backwater village like this.@ However...@ this is a village that belongs to the descendants of the guardians of a holy land.@ ItÅfs absolutely no place for a weak-willed urbanite that came along after tiring of city life, looking to take it easy and do some farming.@ It would be too difficult for an outsider to uphold every single one of the villageÅfs rules.\
+`  Fortunately, the rules themselves arenÅft all that unusual, and they arenÅft especially difficult to understand.\
+`  What is difficult to understand is the intolerant attitude of the villagers, who will ostracize anyone who fails to obey the rules down to the letter.\
+`  The very first of those rules has to do with this hand-washing basin.@ So as to avoid bringing impurities into the village, everyone must cleanse their hands here upon entry.\
+`  That by itself isnÅft so hard to understand.\
+`  The problem is how strictly the village enforces it, no matter what the situation.\
+`  As you can see, this is right in the middle of the road that leads into the village.@ Any rational person could see how inconvenient it would be to park your car here and get out just to wash your hands.@ It would be even worse during times when itÅfs snowing or raining, or when youÅfre exhausted and just want to get home.\
+`  And yet, the villagers wonÅft let you skip out on that troublesome task even once.\
+`  Whenever someone new moves into the village, the elders will watch over them to make sure they donÅft break any rules.\
+`  And if they do something wrong?@ TheyÅfre ostracized.@ Or, no, perhaps it would be more accurate to say that they go under a full assault.@ They bombard the poor newcomer with all sorts of harassment, until they finally succeed in driving them out of the village.\
+`  People vital to the village, like doctors, are no exception.@ There are no doctors residing in the village, but every now and then, a brave one will come make a visit.@ Of course, the villagers always welcome them with open arms, and theyÅfll helpfully go over the rules with them beforehand.\
+`  ...But the moment they break even one of those rules, the villagerÅfs attitudes will do a complete 180, and theyÅfll commence their full-frontal attack.@ ThatÅfs why not a single doctor has ever settled down in the village.\
+`  Unsurprisingly, this vicious treatment seems to soften a bit when directed towards family and friends.@ It seems the former children of the village were able to get off with no more than a severe scolding.@ Of course, although it may have been "softer" in comparison, it was still much harsher than your typical spanking.@ There are some elders in the village who still have scars left over from when they were disciplined.\
+`  In other words, thereÅfs no getting out of the punishment, but they at least wonÅft exile their own from the village.\
+`  Unlike outsiders, the villagers are all, in theory, the descendants of those guardians of the sacred ground.@ They must believe that theyÅfre all fundamentally capable of reform.\
+`  After hearing all that, itÅfs easy to imagine this as a horrifying village, ruled by fear and precepts, but the villagers who live there now donÅft see it that way.@ To them, the rules are as natural as breathing, and the way things should be.@ As such, they donÅft consider it suffocating in the least, instead simply following along with the rules as part of everyday life.\
+`  You could say itÅfs similar to how you must always take off your shoes at the entrance to someoneÅfs home.@ If youÅfre Japanese, thatÅfs just the norm.@ You wonÅft find a single Japanese person who finds that "rule" to be oppressive.@ There arenÅft any Japanese people who feel reluctant to say "itadakimasu" before a meal, nor are there any who will refuse to say "thank you" after someone does them a favor.@ Those rules of theirs, which seem horribly unreasonable by our standards, are just an extremely typical part of daily life to the village elders.\
+`  So in the eyes of the people who live here, stopping your car at the entrance and washing your hands upon returning to the village is the norm, and something that absolutely must be done.\
+`  The villagers themselves are a given, but other people who drop by the village, like mailmen or government officials, arenÅft allowed to skip out on it, either.\
+`  ThatÅfs just how the rules are.@ Anyone who questions that wouldnÅft be able to get by here.\
+`  Fortunately enough, most of the rules donÅft become relevant unless you do start living here.@ If you donÅft enter a house, you donÅft have to worry about taking off your shoes; if you donÅft eat, thereÅfs no reason to say "itadakimasu"; if you donÅft let other people take care of things for you, you donÅft have to say "thank you"...@ ItÅfs like that.\
+`  When it comes to a homeless traveler like me, there are hardly any rules that can apply outside of the one surrounding this hand-washing basin.@ In a sense, perhaps you could consider that the single show of mercy from a village hard on outsiders.\
+`  However, in my view, itÅfs simply in the villageÅfs blind spot.\
+`  Whimsical travelers arenÅft expected to be wandering into this village in the first place.@ While the scenery and atmosphere here, deep in the mountains, may be more stunning than the average town, there are many far more breathtaking locations in Japan.\
+`  There are no scenic views or tourist spots here.@ Nobody visits this place except for the villagers; itÅfs a dead end, with nothing but mountains behind it.\
+`  Knowing all that, the least a traveler like me can do is obey the simple rule of washing my hands and show this land the respect it deserves.@ ThatÅfs what any normal traveler would do.\
+`  I picked up the ladle and scooped up some water.\
+`  "IÅfm awfully sorry."\
+`  ...IÅfm not any normal traveler.\
+`  The ladle fell out of TakanoÅfs hands.\
+`  It didnÅft just fall on its own.@ She dropped it.\
+
+; BILLYDEBUG SFX?
+
+`  The ladle hit the ground with a loud enough clatter to startle even the object itself, rolling across the earth.@ That sound rang out loud and clear.\
+`  ...It was loud enough that if anyone had been standing watch to make sure an outsider didnÅft break the rules, there was no way they could have missed it.\
+`  But Takano merely laughed.@ She gave a crisp laugh, just as if that display of rudeness had been the proper thing to do.@ She had intentionally thrown that ladle, meant to cleanse away filth and impurities, onto the ground...\
+`  "I do hope this will suffice as a greeting.@ ...Hehehe."\
+`  Takano straddled her motorcycle once more.\
+`  It was doubtful that she would be able to stay with any of the locals, but there were sure to be some empty houses inside the depopulated village.@ Takano had brought along all the equipment she would need for camping, so as long as she could find shelter from the evening dew, she wouldnÅft need anything else.\
+`  "...Well then.@ I wonder when theyÅfll be coming.@ I can hardly wait."\
+`  TakanoÅfs bold smile was hidden underneath her full-face helmet.\
+`  Her motorcycle took off, and she disappeared into the village...\
+
+bg "bmp/efe/black.png",10
+
+`  ...\
+
+bgmstop
+bg "bmp/manga/hirasaka1.png",10
+
+`  Chiharu Nakamura had moved to the village the previous year, immediately after graduating high school./
+
+bgm "bgm/lsys12.ogg"
+`\
+
+`  As far as why I moved here...@ well, IÅfm not particularly keen on explaining it.@ Most people would just give me a dubious look if I told them the real reason.\
+`  Both my parents are predisposed to depression.@ They were always searching for some kind of crutch, hoping they would one day be shown the path to something they could believe in.@ As such, itÅfs probably no surprise that they came to put fortune-tellers and psychics on some sort of pedestal.\
+`  Before long, they were putting all their stock in one particular fortune-teller.@ Often attending the seminar he hosted, they would take to heart all his fortunes about how their current job wasnÅft good for them or there were bad vibes surrounding their family life, and they started purchasing shady objects like spiritual urns in bulk.@ By the end of it all, they even believed in the prophecy that it was their true destiny to live out a simple life doing farming in the far-off country, free of all ties and obligations.\
+`  I donÅft know why the fortune-teller picked out this village in particular.@ IÅfm willing to bet that he hung a map on his wall, threw a dart, and went with wherever it landed.@ Either way, I know for a fact that his prophecy is what convinced them to move here.\
+`  Thanks to that, the five of us Nakamuras (me, my parents, and my two older brothers) moved out to this strange, empty village.\
+`  My brothers havenÅft been bothered by it in the least.\
+`  My eldest brother is still stuck in a deep depression due to severe bullying he faced in middle school.@ For the record, it was when my parents were trying to figure out what to do about that that they first turned to fortune-telling.@ For that reason, my oldest brother has just as much blind faith in the prophecy as my parents do.\
+`  The younger of my two brothers was another victim of bullying.@ While he didnÅft fall into a depression, he came out of it a pretty bitter person, so he was more than happy to start living like a hermit out in the middle of nowhere.\
+`  So, of course, there wasnÅft a whole lot I could say as the odd person out.\
+`  ...Really, thereÅfs probably a part of me that gets easily depressed, just like the rest of my family.@ So I must have felt tired of living in the city, or bored of ordinary life...@ or I thought IÅfd be able to get a fresh start in a remote village...@ so I left the decision up to everyone else, hoping it would lead to some sort of change in my life.\
+`  And so, our family packed up and moved out to this village.@ We moved to this strange, stifling village, steeped in restrictions and with a rule for everything.\
+`  The elders of the village are incredibly narrow-minded and unaccommodating.@ As such, you canÅft break any of the rules where one of the villagers might see.@ Whenever one of the rules is about to slip your mind, thereÅfs always someone watching, ready to chew you out at the top of their lungs.\
+`  They expect regular worship before the Jizo statue or the miniature shrine, help carrying out certain rituals, and all sorts of other things.@ IÅfm not from around here, so it would be nice if theyÅfd explain things a little more patiently, but they donÅft seem to care.@ They just berate me as if IÅfm the one lacking common sense.\
+`  ThatÅfs why 24 hours a day, 365 days a year, you have to make sure that you constantly honor the spirits of your ancestors and never offend the gods or the Buddha, all based on the religious beliefs of the village.@ ItÅfs no wonder that the younger villagers never come back after they leave for the city.\
+`  I completely intend to do as the Romans do here.@ But every now and then, I just happen to forget tiny little rules (actually, it would be more accurate to just call it "etiquette," in this case), no harm intended.@ The villagers used to nag me to death whenever they saw that happen, but once I started ignoring them, they eventually stopped saying anything.\
+`  IÅfm perfectly fine with being ostracized.@ ItÅfs not like I moved here for the sake of mingling with the villagers.@ I only ended up here because of a prophecy my parents heard.\
+`  My family doesnÅft seem to have any problems with this stifling, tiring, and strange village.@ TheyÅfve always been happier having their lives dictated by divine forces or whatever in the first place.@ I guess itÅfs easier on them when what they have to do is clearly laid out in front of them, no matter how harsh it may be.@ The thing that my family has the hardest time with is being expected to respond to someone elseÅfs circumstances or mood on the fly.\
+`  Of course, theyÅfre just playing along on the surface.@ They donÅft genuinely revere the gods or anyoneÅfs ancestors.@ After all, what they really worship is that sun god of destiny that Mr. Soothsaying Guru always went on about, the great Yada-Yada-So-And-So.\
+`  Just like that, we slowly adapted to life in this suffocating village, and soon enough, a year had passed...\
+
+; BILLYDEBUG BG? BEDROOM
+bg "bmp/efe/black.png",10
+bgmstop
+
+`  "...Mm...?@ What...?@ What time is it...?"\
+
+bg "bmp/maebara/jisitu3.jpg",10
+lsp 16,":a;bmp/tati/ara/ara_d1.png",105,0
+
+`  "Come on, wake up!@ YouÅfve gotta get up, Chiharu, itÅfs incredible!@ Just look...!"\
+
+csp -1
+
+`  I glanced at the clock, and it wasnÅft even 6 AM yet.@ It seemed my brother was making a fuss after looking out at the sunrise.\
+`  ...IÅfll admit that the New YearÅfs sunrise is worth seeing, but if itÅfs any other day of the year, I couldnÅft care less.\
+
+;bg "bmp/efe/black.png",10
+
+`  I tried to go back to sleep, but my brother wouldnÅft give it a rest.@ I felt like complaining to my mom, but unfortunately, she had left for a three-day, two-night hot springs vacation with a friend just the previous day.\
+`  Whatever.@ IÅfll get up.@ I gave in, knowing my oldest brother didnÅft have much capacity for picking up on other peopleÅfs feelings.\
+`  "Yaaaawn.@ ...WhatÅfs so incredible...?"\
+
+bg "bmp/manga/hirasaka1.png",10
+bgm "bgm/lsys12.ogg"
+
+`  When I came over to look, I saw my dad and my other brother both staring up at the freshly risen morning sun, using their hands to shield their eyes.\
+`  ...What?@ Is it a solar eclipse or something?@ But thereÅfs no reason to wake me up this early for that...\
+`  ...Huh?\
+`  ...\
+`  "...Huh?!"\
+`  I was dumbstruck.@ I stared directly at where the sun sat in the sky, letting it burn itself into my eyes.\
+`  However, there was more than just one sun burned into the backs of my eyelids...\
+
+bgmstop
+
+`  "ThereÅfs.../
+
+bg "bmp/new/twosuns.png",10
+bgm "me/A3_01005.WAV"
+
+` t...@ two suns..."\
+`  Almost like a pair of eyes, two suns were lined up across from each other in the sky.\
+`  Is this...@ even possible...?!@ I canÅft believe it.@ IÅfve never heard of a phenomenon like this...@ Is it some kind of mirage?@ But if I remember right, mirages usually distort an image vertically...@ ...IÅfve never heard of one...@ that goes sideways...\
+`  While we were staring out the window in amazement, our neighbor caught sight of us.\
+`  Our next door neighbor is Suzuki-san, an old man living together with his son.@ They moved here around the same time we did.@ The reason they moved was just about the same, too.@ In other words, weÅfre both victims of the same fortune-teller.\
+
+lsp 16,":a;bmp/tati/oka/oka_d6a.png",105,0
+bgm "bgm/lsys11.ogg"
+
+`  "Hey there, gÅfmorning to you, Nakamura-san...!@ Well...@ isnÅft this a strange sight...!"\
+`  "Good morning...@ I really...@wonder what this is all about..."\
+`  There was no way we could know that.\
+`  The Nakamura household and the Suzuki household--a total of six people--looked up at the two suns in awe, without a care for protecting our eyes...\
+
+csp -1
+bg "bmp/efe/black.png",10
+
+`  ...\
+bgmstop
+
+`  "...Now isnÅft this an interesting sight."\
+bgm "bgm/lsys12.ogg"
+
+bg "bmp/new/twosuns.png",10
+
+`  Takano, too, was staring out at the double sunrise through a pair of sunglasses.@ However, neither surprise nor alarm was reflected in her expression.\
+`  There was only fearless admiration.\
+`  Admiration of her own strong luck, which never ceased to amaze even her.\
+`  "This saves me the trouble of loitering around for however many days."\
+`  In a worst case scenario, she had expected to spend several weeks killing time in this boring village, but it had only taken her one night to bear witness to it.\
+`  Takano double-checked her belongings and gathered them all together.@ The contents of her luggage were more than enough to get her stopped by a police officer, with everything ranging from a large knife to a shotgun designed for hunting.\
+`  Her adventure had already begun back when she started making her preparations.@ Thus, she had arranged for every bit of equipment she was able to obtain and carry within Japan.@ Of course, she had also packed plenty of tools to satisfy her sense of intellectual curiosity, like cameras, notebooks, and research files.\
+`  However, her motorcycle had stopped working.@ The engine wouldnÅft start.@ No matter how she coaxed it, it wouldnÅft give the slightest response.\
+`  It suddenly broke down, even though it had been driving so smoothly just the other day?@ There was something clearly unnatural about it.\
+`  "...So you want me to do the rest of the journey on my own feet, hm?@ Hehe."\
+`  Now, where to begin?@ I suppose a little exploring comes first.@ Takano began a leisurely walk down the road.@ If only it werenÅft for the shotgun she had strapped to her back, it might have looked like a lovely stroll under the morning sun.\
+`  The village was unbelievably quiet.@ There was the sound of the wind rustling tree branches...@ but beyond that, there wasnÅft a single noise created by another living being.@ It was unthinkable not to hear so much as a bird chirping so deep in the mountains.\
+`  As such...@ peopleÅfs voices carried very clearly.\
+
+bgmstop
+
+`  Takano heard someone screaming in a shrill tone.@ The voice was steadily drawing closer.@ Without the slightest flinch in her bold expression, she readied her shotgun.\
+`  The voice belonged to a girl.@ She was walking along, shouting, "Is there anyone here?" over and over.\
+`  Anyone would assume that she was human.@ A frail, 100% human young girl.\
+`  However, the "game" had already begun.\
+`  And so, in accordance with the rules of the game, Takano chose to show herself.@/
+
+bg "bmp/efe/gun_2b.bmp",10
+
+` She jumped out from the bushes, pointing her gun and confronting the approaching figure.\
+`  As a perfectly natural result, the girl was incredibly startled.\
+
+lsp 16,":a;bmp/tati/rik/rik_d6a.png",105,0
+
+`  "Eek...!"\
+`  "Good morning.@ IsnÅft it a lovely morning with two suns shining down?"\
+
+lsp 16,":a;bmp/tati/rik/rik_d4a.png",105,0
+
+`  "W-W-What is this, whatÅfs going on...?!@ ...I-IÅfm sorry, IÅfm sorry, please forgive me...!"\
+`  The girl seemed to think that she had stumbled onto some sort of forbidden ground in the village, and thatÅfs why she was being threatened with a gun.\
+`  The sight of the frightened girl falling on her backside was quite gratifying, so I satisfied myself with that and lowered my gun.\
+`  "WhatÅfs your name?"\
+
+lsp 16,":a;bmp/tati/rik/rik_d3a.png",105,0
+bgm "bgm/lsys11.ogg"
+
+`  "N-Nakamura.@ IÅfm Chiharu Nakamura.@ Um, I-I just moved here last year...!"\
+`  "Aha, I see...@ My condolences."\
+`  Takano grinned, having come to some sort of understanding.@ Chiharu didnÅft have a clue what was going on, but she relaxed a little after the other woman lowered her gun, slowly getting back up on her feet.\
+`  And once she was able to get a good look at TakanoÅfs appearance, she realized she wasnÅft someone from the village.\
+
+bg "bmp/forest/forest_p2a.bmp",10
+lsp 16,":a;bmp/tati/rik/rik_d3.png",105,0
+
+`  "Um...@ Who are you...?"\
+`  "Miyoko Takano.@ You can just call me Miyoko, Chiharu."\
+`  "M-Miyoko-san, youÅfre...@ haaah...@ IÅfm so glad.@ I really thought...@ there wasnÅft anyone else left..."\
+`  "What do you mean?"\
+`  "W-Well...@ Our neighbors are all gone.@ All the houses except for ours and Suzuki-sanÅfs are empty...!@ They left their front doors wide open, too, so we were wondering if they all went off somewhere..."\
+`  "Who is Suzuki-san?"\
+
+lsp 16,":a;bmp/tati/rik/rik_d3a.png",105,0
+
+`  "U-Uh, heÅfs someone who moved here at the same time as us, about a year ago.@ HeÅfs an old man living with his son..."\
+`  "I see.@ So thereÅfs no sign of anyone besides your two families, hm?"\
+`  There were many early risers among the village elders.@ Knowing that, there should have been gatherings of people looking up at the two suns, legitimately thunderstruck.@ And yet, it had quickly become apparent that there was no one else around.@ Every house was completely deserted, and all the villagers had disappeared when no one was looking...@ Once they noticed that, the two families had started searching around the village to see if anyone else was still there.\
+`  "You probably arenÅft going to find anyone else."\
+`  "...Where...@ did they all go...?@ ...I wonder if this is some kind of event.@ Maybe theyÅfre off holding a festival somewhere, and we just donÅft know about it..."\
+`  "But as far as I know, this village doesnÅft hold any festivals like that."\
+`  "Is...@ that so?"\
+`  "TheyÅfre probably in the mountains."\
+`  "The mountains?"\
+`  "DonÅft worry about it.@ Besides, whether you go searching for them or not, theyÅfre going to come to us sooner or later."\
+`  Chiharu was completely thrown for a loop.@ Still, she could see that Takano was keeping her cool despite the situation.\
+
+lsp 16,":a;bmp/tati/rik/rik_d3.png",105,0
+
+`  "Um...@ Would you like to come back to our house?@ In times like this, I think itÅfs best to stick together..."\
+`  "...ThatÅfs true.@ I suppose any help would be welcome."\
+`  Takano preferred working alone, but she figured there was no harm in meeting ChiharuÅfs family.@ Knowing what was about to happen...@ she would need all the help she could get.\
+`  "T-Then, letÅfs go.@ ...ItÅfs this way."\
+`  "Oh, wait just a moment."\
+`  Takano took out her notebook and started moving her pen across the page.\
+
+csp -1
+bg "bmp/efe/nort2.png",10
+
+`  "'Day one, early morning.@ Met with the first villager, Chiharu Nakamura.' There."\
+
+bg "bmp/efe/file.png",10
+
+`  After that, she closed the notebook, then paused with her pen in midair as she tried to think of something to write on the cover.\
+`  "I saw some fireflies out last night."\
+
+lsp 16,":a;bmp/tati/rik/rik_d3.png",105,0
+
+`  "On some nights, you can see really pretty fireflies in the village..."\
+`  "They really were pretty.@ The way the dim green lights danced about was simply beautiful."\
+`  ...ThatÅfs it.@ Fireflies.@ Firefly lights.\
+
+csp -1
+
+`  TakanoÅfs pen glided over the cover of the notebook.@ That was the title.\
+
+bgmstop
+
+br
+br
+br
+br
+br
+br
+br
+`         When the Fireflies Glow.\
+
+reset
+
+; Placeholder scene for TIPS not yet implemented
+*placeholder
+
+`  This Fragment has not been found in the Sea just yet...\
+
+reset
+
+*meta_set
+*mset
+	lsp msp_kuro,":c;bmp\r_click\black.bmp",0,0,110
+	print 22
+
+	lsp msp_hana_u,":a;bmp\efe\hana_u.png",0,0,200
+	lsp msp_hana_d,":a;bmp\efe\hana_d.png",0,364,200
+	print 28
+	delay 1000
+return
+
+*meta_ld
+*mld
+`  Test\
+	getparam %meta_tmp1,$witchh2,%meta_tmp3
+
+mldt %meta_tmp1,$witchh2,%meta_tmp3,255
+
+return
+
+*mldt
+
+	getparam %meta_tmp1,$witchh2,%meta_tmp3,%witchh15
+
+	if %meta_tmp1 = l mov $last_meta_l, $witchh2 : mov %last_meta_l_trans, %witchh15 : mov %meta_l_on,1
+	if %meta_tmp1 = c mov $last_meta_c, $witchh2 : mov %last_meta_c_trans, %witchh15 : mov %meta_c_on,1
+	if %meta_tmp1 = r mov $last_meta_r, $witchh2 : mov %last_meta_r_trans, %witchh15 : mov %meta_r_on,1
+
+; end 2x
+
+	mov $witchh15,$witchh12
+
+	if %meta_tmp1 = l mov %meta_tmp4,msp_l lsp msp_l,$witchh15,0,0
+	if %meta_tmp1 = c mov %meta_tmp4,msp_c lsp msp_c,$witchh15,0,0
+	if %meta_tmp1 = r mov %meta_tmp4,msp_r lsp msp_r,$witchh15,0,0
+return
+
+reset
